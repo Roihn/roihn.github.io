@@ -32,7 +32,7 @@ Electrical and Computer Engineering B.S, UM-SJTU Joint Institute Shanghai, China
 
 ---
 
-# RESEARCH & PROJECT EXPERIENCE
+# Research & Project Experience
 
 #### Research on Lightweight of Low Light Video Enhancement Algorithm
 
@@ -78,7 +78,7 @@ Adaptive Autonomous Agent Lab Researcher  *Aug 2019 - Sep 2020*
 
 ---
 
-# **INTERNSHIP EXPERIENCE**
+# **Internship Experience**
 
 #### **[INTSIG](https://en.intsig.com) (Key App products: CamScanner, CamCard)** 
 
@@ -91,6 +91,14 @@ Algorithm Engineer AIM Shanghai  *Aug 2020 - Jan 2021*
 - Construct **Lua SDK** of **SQL (mysql, postgres)** code format correction for preventing SQL **injection** and increasing the code simplicity.
 
 
+
+---
+
+# Teaching Experience
+
+#### VE281 - Data Structures and Algorithms
+
+Teaching Assistant, *May 2021 - Aug 2021*, UMJI-SJTU
 
 ---
 
