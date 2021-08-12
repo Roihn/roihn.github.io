@@ -100,6 +100,10 @@ Algorithm Engineer AIM Shanghai  *Aug 2020 - Jan 2021*
 
 Teaching Assistant, *May 2021 - Aug 2021*, UMJI-SJTU
 
+- Responsible for designing assignments (alone), exams (co-work) and giving recitation classes every week
+
+
+
 ---
 
 # Leadership
