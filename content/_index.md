@@ -80,7 +80,7 @@ sections:
           company_logo: sled-logo
           location: Ann Arbor
           date_start: '2022-12-15'
-          date_end: 'now'
+          date_end: '2024-04-30'
           description: |2-
               Responsibilities include:
 
