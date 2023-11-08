@@ -120,6 +120,6 @@ social:
 highlight_name: true
 ---
 
-Run Peng is a Master Student at University of Michigan. He actively works in the SLED Lab, and currently he is working as a reserach intern at LG AI Research. His research interests include include embodied collaboration, reinforcement learning, and natural language processing. 
+Run Peng is a Master Student at University of Michigan. He actively works in the SLED Lab, and currently is also working as a reserach intern at LG AI Research. His research interests include include embodied collaboration, reinforcement learning, and natural language processing. 
 
 {style="text-align: justify;"}
