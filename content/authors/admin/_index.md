@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 彭润
+title: Run Peng
 
 # Name pronunciation (optional)
 name_pronunciation: ''
