@@ -26,6 +26,10 @@ abstract: Zero-Shot Object Navigation (ZSON) enables agents to navigate towards 
 summary: Interactive object detection, personalization in robotics, LLM based navigation
 
 tags:
+  - Embodied AI
+  - Robotics
+  - Large Language Models
+
 featured: false
 
 url_pdf: https://arxiv.org/pdf/2310.07968
@@ -65,3 +69,5 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/). -->
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QW6rMHVpxUY?si=yammHtE6_De05897" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

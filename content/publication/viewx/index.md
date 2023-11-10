@@ -1,19 +1,21 @@
 ---
-title: 'Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models'
+title: 'Learning Exploration Policies with View-based Intrinsic Rewards'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Ziqiao Ma
-  - Jacob Sansom
+  - Yijie Guo
+  - Yao Fu
   - admin
-  - Joyce Chai
+  - Honglak Lee
 
 # Author notes (optional)
-author_notes: ''
+author_notes: 
+  - Equal Contribution
+  - Equal Contribution
 
-date: '2023-10-30T00:00:00Z'
+date: '2022-10-08T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -25,27 +27,27 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In The 2023 Conference on Empirical Methods in Natural Language Processing
-publication_short: In *EMNLP* 2023 Findings
+publication: In The Conference on Neural Information Processing Systems, Deep Reinforcement Learning Workshop, 2022
+publication_short: In *NeurIPS* 2022 DRL Workshop
 
-abstract: 'Large Language Models (LLMs) have generated considerable interest and debate regarding their potential emergence of Theory of Mind (ToM). Several recent inquiries reveal a lack of robust ToM in these models and pose a pressing demand to develop new benchmarks, as current ones primarily focus on different aspects of ToM and are prone to shortcuts and data leakage. In this position paper, we seek to answer two road-blocking questions: (1) How can we taxonomize a holistic landscape of machine ToM? (2) What is a more effective evaluation protocol for machine ToM? Following psychological studies, we taxonomize machine ToM into 7 mental state categories and delineate existing benchmarks to identify under-explored aspects of ToM. We argue for a holistic and situated evaluation of ToM to break ToM into individual components and treat LLMs as an agent who is physically situated in environments and socially situated in interactions with humans. Such situated evaluation provides a more comprehensive assessment of mental states and potentially mitigates the risk of shortcuts and data leakage. We further present a pilot study in a grid world setup as a proof of concept. We hope this position paper can facilitate future research to integrate ToM with LLMs and offer an intuitive means for researchers to better position their work in the landscape of ToM.'
+abstract: 'Efficient exploration in sparse-reward tasks is one of the biggest challenges in deep reinforcement learning. Common approaches introduce intrinsic rewards to motivate exploration. For example, visitation count and prediction-based curiosity utilize some measures of novelty to drive the agent to visit novel states in the environment. However, in partially-observable environments, these methods can easily be misled by relatively “novel” or noisy observations and get stuck around them. Motivated by humans’ exploration behavior of seeing around the environment to get information and avoid unnecessary actions, we consider enlarging the agent’s view area for efficient knowledge acquisition of the environment. In this work, we propose a novel intrinsic reward combining two components: the view-based bonus for ample view coverage and the classical count-based bonus for novel observation discovery. The resulting method, ViewX, achieves state-of-the-art performance on the 12 most challenging procedurally-generated tasks on MiniGrid. Additionally, ViewX efficiently learns an exploration policy in the task-agnostic setting, which generalizes well to unseen environments. When exploring new environments on MiniGrid and Habitat, our learned policy significantly outperforms the baselines in terms of scene coverage and extrinsic reward.'
 
 # Summary. An optional shortened abstract.
-summary: Intrinsic Reward Design, Reinforcement Learning, Sample Efficiency in Exploration
+summary: theory of mind, large language models, mental states
 
 tags: []
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://openreview.net/forum?id=C2_6qBhe5fH'
-# url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
-# url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
+url_pdf: 'https://arxiv.org/pdf/2310.19619'
+url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
+url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
@@ -55,7 +57,7 @@ url_pdf: 'https://openreview.net/forum?id=C2_6qBhe5fH'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  # caption: 'Image credit: Dalle-3'
+  caption: 'Image credit: Dalle-3'
   focal_point: ''
   preview_only: false
 
@@ -64,8 +66,8 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - tom
+# projects:
+#   - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
