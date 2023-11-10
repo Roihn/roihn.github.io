@@ -99,7 +99,7 @@ sections:
             * Detailed descriptions can be found in the project list.
     design:
       columns: '2'
-  <a class="twitter-timeline" href="https://twitter.com/RoihnPeng?ref_src=twsrc%5Etfw">Tweets by RoihnPeng</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
