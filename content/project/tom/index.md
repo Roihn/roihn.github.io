@@ -1,6 +1,9 @@
 ---
 title: 'Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models'
-summary: An example of using the in-built project page.
+summary: 
+    - Responsible for designing and implementing all ten tasks on minigrid
+    - Actively Contributed to test LLM's understanding on situated theory of mind, unveiling its lack of ability to correctly reason the theory of mind
+
 tags:
   - Theory of mind
   - Embodied AI
@@ -18,7 +21,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Check
+    name: Post
     url: https://twitter.com/ziqiao_ma/status/1719394746043449417
 url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
 url_pdf: 'https://arxiv.org/abs/2310.19619'

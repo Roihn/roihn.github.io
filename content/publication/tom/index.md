@@ -33,10 +33,13 @@ abstract: 'Large Language Models (LLMs) have generated considerable interest and
 # Summary. An optional shortened abstract.
 summary: Intrinsic Reward Design, Reinforcement Learning, Sample Efficiency in Exploration
 
-tags: []
+tags:   
+  - Theory of mind
+  - Embodied AI
+  - Large Language Models
 
 # Display this page in the Featured widget?
-featured: false
+featured: true
 
 # Custom links (uncomment lines below)
 # links:

@@ -1,6 +1,11 @@
 ---
-title: Example Project
-summary: An example of using the in-built project page.
+title: Exploring LLM in Intention Modeling for Human-Robot Collaboration
+summary: Humans develop Theory of Mind (ToM) at a young age - the ability to understand that others have intents, beliefs, knowledge, skills, etc. that may differ from our own.
+Modeling others’ mental states plays an important role in human-human communication and collaborative tasks. 
+As a new generation of cognitive robots start to enter our lives, it’s important for these robots to have similar ToM abilities in order to effectively collaborate with humans. 
+While there is an increasing amount of work in ToM modeling or collaborative tasks in human-agent collaboration, most of the works were situated in a simulated environment.
+In this work, we take an initial step towards ToM modeling powered by large language models GPT-4 in human-robot communication and collaboration. In particular, we applied prompt engineering in a one-shot setting to empower the robot the ability to infer human’s intention and generate corresponding responses.
+
 tags:
   - Theory of mind
   - Embodied AI
@@ -18,7 +23,7 @@ image:
 links:
   - icon: twitter
     icon_pack: fab
-    name: Check
+    name: Post
     url: https://twitter.com/Roihn313898/status/1708851171585106395
 # url_code: ''
 # url_pdf: ''
@@ -32,9 +37,4 @@ url_slides: 'https://docs.google.com/presentation/d/1PgG45U45wTWKXgFVN1IPiZrsEcg
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
-Humans develop Theory of Mind (ToM) at a young age - the ability to understand that others have intents, beliefs, knowledge, skills, etc. that may differ from our own.
-Modeling others’ mental states plays an important role in human-human communication and collaborative tasks. 
-As a new generation of cognitive robots start to enter our lives, it’s important for these robots to have similar ToM abilities in order to effectively collaborate with humans. 
-While there is an increasing amount of work in ToM modeling or collaborative tasks in human-agent collaboration, most of the works were situated in a simulated environment.
-In this work, we take an initial step towards ToM modeling powered by large language models GPT-4 in human-robot communication and collaboration. In particular, we applied prompt engineering in a one-shot setting to empower the robot the ability to infer human’s intention and generate corresponding responses.
 

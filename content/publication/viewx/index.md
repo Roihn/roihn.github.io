@@ -33,7 +33,7 @@ publication_short: In *NeurIPS* 2022 DRL Workshop
 abstract: 'Efficient exploration in sparse-reward tasks is one of the biggest challenges in deep reinforcement learning. Common approaches introduce intrinsic rewards to motivate exploration. For example, visitation count and prediction-based curiosity utilize some measures of novelty to drive the agent to visit novel states in the environment. However, in partially-observable environments, these methods can easily be misled by relatively “novel” or noisy observations and get stuck around them. Motivated by humans’ exploration behavior of seeing around the environment to get information and avoid unnecessary actions, we consider enlarging the agent’s view area for efficient knowledge acquisition of the environment. In this work, we propose a novel intrinsic reward combining two components: the view-based bonus for ample view coverage and the classical count-based bonus for novel observation discovery. The resulting method, ViewX, achieves state-of-the-art performance on the 12 most challenging procedurally-generated tasks on MiniGrid. Additionally, ViewX efficiently learns an exploration policy in the task-agnostic setting, which generalizes well to unseen environments. When exploring new environments on MiniGrid and Habitat, our learned policy significantly outperforms the baselines in terms of scene coverage and extrinsic reward.'
 
 # Summary. An optional shortened abstract.
-summary: theory of mind, large language models, mental states
+summary: Intrinsic Reward Design, Reinforcement Learning, Sample Efficiency in Exploration
 
 tags: []
 
@@ -45,9 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/pdf/2310.19619'
-url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
-url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
+url_pdf: 'https://openreview.net/forum?id=C2_6qBhe5fH'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
@@ -56,10 +54,10 @@ url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: Dalle-3'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: Dalle-3'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
