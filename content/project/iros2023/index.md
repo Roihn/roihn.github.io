@@ -1,10 +1,10 @@
 ---
 title: Exploring LLM in Intention Modeling for Human-Robot Collaboration
-summary: Humans develop Theory of Mind (ToM) at a young age - the ability to understand that others have intents, beliefs, knowledge, skills, etc. that may differ from our own.
+summary: 'Humans develop Theory of Mind (ToM) at a young age - the ability to understand that others have intents, beliefs, knowledge, skills, etc. that may differ from our own.
 Modeling others’ mental states plays an important role in human-human communication and collaborative tasks. 
 As a new generation of cognitive robots start to enter our lives, it’s important for these robots to have similar ToM abilities in order to effectively collaborate with humans. 
 While there is an increasing amount of work in ToM modeling or collaborative tasks in human-agent collaboration, most of the works were situated in a simulated environment.
-In this work, we take an initial step towards ToM modeling powered by large language models GPT-4 in human-robot communication and collaboration. In particular, we applied prompt engineering in a one-shot setting to empower the robot the ability to infer human’s intention and generate corresponding responses.
+In this work, we take an initial step towards ToM modeling powered by large language models GPT-4 in human-robot communication and collaboration. In particular, we applied prompt engineering in a one-shot setting to empower the robot the ability to infer human’s intention and generate corresponding responses.'
 
 tags:
   - Theory of mind
