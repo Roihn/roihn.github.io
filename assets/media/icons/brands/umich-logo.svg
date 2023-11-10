@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 48.279999 34.509997"
+   version="1.1"
+   sodipodi:docname="VPComm_Logo_header_clean.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   width="48.279999"
+   height="34.509998">
+  <metadata
+     id="metadata77">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>VPComm_Logo_header</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     id="namedview75"
+     showgrid="false"
+     inkscape:zoom="7.3320212"
+     inkscape:cx="99.500542"
+     inkscape:cy="-20.866609"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#fff;}.cls-2{fill:#f3c300;}</style>
+  </defs>
+  <title
+     id="title6">VPComm_Logo_header</title>
+  <path
+     class="cls-2"
+     d="M 24.266389,28.65 14.386387,15.14 v 9.83 h 3.930002 v 9.7 H 0.13638721 v -9.7 H 3.8163872 V 9.8600001 H 0.13638721 V 0.15999991 H 14.416387 L 24.266389,13.76 34.116388,0.15999991 h 14.27 V 9.8600001 h -3.65 V 24.97 h 3.68 v 9.7 H 30.216389 v -9.7 h 3.929999 v -9.83 z"
+     id="path72" />
+</svg>

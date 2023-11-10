@@ -89,6 +89,7 @@ sections:
         
         - title: Graduate & Undergraduate student research assistant
           company: Lee Lab @Umich
+          company_logo: sled-logo
           location: Ann Arbor
           date_start: '2021-10-28'
           date_end: '2023-07-24'
