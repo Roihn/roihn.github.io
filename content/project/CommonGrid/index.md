@@ -1,7 +1,6 @@
 ---
 title: 'CommonGrid: Building Common Ground through Belief Maintenance in Situated Communication'
-
-summary: `Constructing a multi-agent, collaboration benchmark which requires belief and intention modeling; Training RL agents to perform theory of mind modeling during the collaboration`
+summary: 'Constructing a multi-agent, collaboration benchmark which requires belief and intention modeling; Training RL agents to perform theory of mind modeling during the collaboration`'
 tags:
   - Demo
   - Theory of Mind
