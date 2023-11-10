@@ -86,9 +86,20 @@ sections:
 
               * Leading or playing a major role in multiple projects related to theory-of-mind modeling, human-robot collaboration, language grounding, and embodied environment understanding.
               * Detailed descriptions can be found in the project list.
-              
+        
+        - title: Graduate & Undergraduate student research assistant
+          company: Lee Lab @Umich
+          location: Ann Arbor
+          date_start: '2021-10-28'
+          date_end: '2023-07-24'
+          description: |2-
+            Responsibilities include:
+
+            * Three projects related to Intrinsic reward design, Reinforcement learning and Meta learning.
+            * Detailed descriptions can be found in the project list.
     design:
       columns: '2'
+  <a class="twitter-timeline" href="https://twitter.com/RoihnPeng?ref_src=twsrc%5Etfw">Tweets by RoihnPeng</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
