@@ -31,7 +31,7 @@ bio: My research interests include embodied collaboration, reinforcement learnin
 interests:
   - Embodied Collaboration
   - Computational Linguistics
-  - Reinforcement Learning
+  - Reinforcement learning
 
 # Education to show in About widget
 education:
@@ -120,6 +120,6 @@ social:
 highlight_name: true
 ---
 
-Run Peng is a Master Student at University of Michigan. He actively works in the SLED Lab, and currently is also working as a reserach intern at LG AI Research. His research interests include include embodied collaboration, reinforcement learning, and natural language processing. 
+Run Peng is a Master Student at University of Michigan. He actively works in the SLED Lab, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/), and Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/). In addition, he is currently working as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include include embodied collaboration, reinforcement learning, and natural language processing. 
 
 {style="text-align: justify;"}

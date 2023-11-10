@@ -70,4 +70,13 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://wowchemy.com/docs/content/writing-markdown-latex/). -->
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QW6rMHVpxUY?si=yammHtE6_De05897" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div style="width: 100%; max-width: 100%; overflow: hidden; position: relative; padding-top: 56.25%;">
+  <iframe 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    src="https://www.youtube-nocookie.com/embed/QW6rMHVpxUY?si=yammHtE6_De05897" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>

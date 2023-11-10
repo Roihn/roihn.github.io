@@ -175,8 +175,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Theory of mind
+          tag: Theory of mind
+        - name: Reinforcement learning
+          tag: Reinforcement learning
         - name: Other
           tag: Demo
     design:

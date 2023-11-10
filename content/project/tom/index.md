@@ -1,8 +1,6 @@
 ---
 title: 'Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models'
-summary: 
-    - Responsible for designing and implementing all ten tasks on minigrid
-    - Actively Contributed to test LLM's understanding on situated theory of mind, unveiling its lack of ability to correctly reason the theory of mind
+summary: Responsible for designing and implementing all ten tasks on minigrid; Actively Contributed to test LLM's understanding on situated theory of mind, unveiling its lack of ability to correctly reason the theory of mind
 
 tags:
   - Theory of mind
@@ -38,5 +36,4 @@ url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
 
 publication: tom
 ---
-
-
+Large Language Models (LLMs) have generated considerable interest and debate regarding their potential emergence of Theory of Mind (ToM). Several recent inquiries reveal a lack of robust ToM in these models and pose a pressing demand to develop new benchmarks, as current ones primarily focus on different aspects of ToM and are prone to shortcuts and data leakage. In this position paper, we seek to answer two road-blocking questions: (1) How can we taxonomize a holistic landscape of machine ToM? (2) What is a more effective evaluation protocol for machine ToM? Following psychological studies, we taxonomize machine ToM into 7 mental state categories and delineate existing benchmarks to identify under-explored aspects of ToM. We argue for a holistic and situated evaluation of ToM to break ToM into individual components and treat LLMs as an agent who is physically situated in environments and socially situated in interactions with humans. Such situated evaluation provides a more comprehensive assessment of mental states and potentially mitigates the risk of shortcuts and data leakage. We further present a pilot study in a grid world setup as a proof of concept. We hope this position paper can facilitate future research to integrate ToM with LLMs and offer an intuitive means for researchers to better position their work in the landscape of ToM.
