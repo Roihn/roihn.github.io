@@ -35,7 +35,7 @@ abstract: 'Efficient exploration in sparse-reward tasks is one of the biggest ch
 # Summary. An optional shortened abstract.
 summary: Intrinsic Reward Design, Reinforcement Learning, Sample Efficiency in Exploration
 
-tags: []
+tags: ['Reinforcement Learning']
 
 # Display this page in the Featured widget?
 featured: true

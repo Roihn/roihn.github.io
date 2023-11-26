@@ -31,7 +31,7 @@ bio: My research interests include embodied collaboration, reinforcement learnin
 interests:
   - Embodied Collaboration
   - Computational Linguistics
-  - Reinforcement learning
+  - Reinforcement Learning
 
 # Education to show in About widget
 education:
@@ -114,7 +114,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume_research_one_page.pdf
+    link: uploads/resume_RunPeng_20231123.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

@@ -4,7 +4,7 @@ summary: 'Constructing a multi-agent, collaboration benchmark which requires bel
 tags:
   - Demo
   - Theory of Mind
-  - Reinforcement learning
+  - Reinforcement Learning
 
 date: "2022-12-15T00:00:00Z"
 

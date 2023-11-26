@@ -3,7 +3,7 @@ title: 'Towards A Holistic Landscape of Situated Theory of Mind in Large Languag
 summary: Responsible for designing and implementing all ten tasks on minigrid; Actively Contributed to test LLM's understanding on situated theory of mind, unveiling its lack of ability to correctly reason the theory of mind
 
 tags:
-  - Theory of mind
+  - Theory of Mind
   - Embodied AI
   - Large Language Models
 

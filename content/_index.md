@@ -96,8 +96,8 @@ sections:
           description: |2-
             Responsibilities include:
 
-            * Three projects related to Intrinsic reward design, Reinforcement learning and Meta learning.
-            * Detailed descriptions can be found in the project list.
+            * Intrinsic motivation design in hard exploration with reinforcement learning
+            * Task representation refining for meta-learning via contrastive learning
     design:
       columns: '2'
 
@@ -187,10 +187,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Theory of mind
-          tag: Theory of mind
-        - name: Reinforcement learning
-          tag: Reinforcement learning
+        - name: Theory of Mind
+          tag: Theory of Mind
+        - name: Reinforcement Learning
+          tag: Reinforcement Learning
         - name: Other
           tag: Demo
     design:
