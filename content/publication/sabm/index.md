@@ -46,9 +46,9 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://arxiv.org/abs/2310.19619'
-url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
-url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
+url_pdf: 'https://arxiv.org/abs/2311.06330'
+# url_code: 'https://github.com/Mars-tin/awesome-theory-of-mind'
+# url_dataset: 'https://huggingface.co/datasets/sled-umich/2D-ATOMS'
 # url_poster: ''
 # url_project: ''
 # url_slides: ''
