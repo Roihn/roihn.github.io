@@ -1,19 +1,21 @@
 ---
-title: 'Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models'
+title: 'Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Ziqiao Ma
-  - Jacob Sansom
+  - Zengqing Wu
   - admin
-  - Joyce Chai
+  - Xu Han
+  - Shuyuan Zheng
+  - Yixin Zhang
+  - Chuan Xiao
 
 # Author notes (optional)
 author_notes: ''
 
-date: '2023-10-30T00:00:00Z'
+date: '2022-11-10T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -31,11 +33,9 @@ publication_short: In *EMNLP* 2023 Findings
 abstract: 'Large Language Models (LLMs) have generated considerable interest and debate regarding their potential emergence of Theory of Mind (ToM). Several recent inquiries reveal a lack of robust ToM in these models and pose a pressing demand to develop new benchmarks, as current ones primarily focus on different aspects of ToM and are prone to shortcuts and data leakage. In this position paper, we seek to answer two road-blocking questions: (1) How can we taxonomize a holistic landscape of machine ToM? (2) What is a more effective evaluation protocol for machine ToM? Following psychological studies, we taxonomize machine ToM into 7 mental state categories and delineate existing benchmarks to identify under-explored aspects of ToM. We argue for a holistic and situated evaluation of ToM to break ToM into individual components and treat LLMs as an agent who is physically situated in environments and socially situated in interactions with humans. Such situated evaluation provides a more comprehensive assessment of mental states and potentially mitigates the risk of shortcuts and data leakage. We further present a pilot study in a grid world setup as a proof of concept. We hope this position paper can facilitate future research to integrate ToM with LLMs and offer an intuitive means for researchers to better position their work in the landscape of ToM.'
 
 # Summary. An optional shortened abstract.
-summary: Theory of Mind, Large Language Models, Mental States
+summary: Agent Based Modeling, Large Language Models
 
 tags:   
-  - Theory of Mind
-  - Embodied AI
   - Large Language Models
 
 # Display this page in the Featured widget?
