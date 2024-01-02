@@ -114,12 +114,13 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume_RunPeng_20231123.pdf
+    link: uploads/resume_RunPeng_20240102.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
+""Actively Applying for PhD and Industrial Full-Time Jobs""
 Run Peng is a Master Student at University of Michigan. He actively works in the SLED Lab, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/), and Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/). In addition, he is currently working as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include embodied collaboration, reinforcement learning, and natural language processing. 
 
 {style="text-align: justify;"}
