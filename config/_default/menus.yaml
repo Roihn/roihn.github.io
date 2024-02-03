@@ -23,7 +23,7 @@ main:
   #   url: '#contact'
   #   weight: 30
   - name: CV
-    url: uploads/resume_research_one_page.pdf
+    url: uploads/resume_RunPeng.pdf
     weight: 30
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
