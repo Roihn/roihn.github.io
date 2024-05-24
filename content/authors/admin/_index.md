@@ -120,9 +120,6 @@ social:
 highlight_name: true
 ---
 
-**Actively Looking for Industrial Full-Time Jobs Now!**
-
-
-Run Peng is a coming Ph.D student at University of Michigan. He actively works in the [SLED Lab](https://sled.eecs.umich.edu/), advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/), and Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/). In addition, he worked as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include embodied collaboration, reinforcement learning, and natural language processing. 
+Run Peng is a coming Ph.D student at University of Michigan, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) in the [SLED Lab](https://sled.eecs.umich.edu/). Before, he actively worked in Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/), and worked as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include embodied agent modeling and reinforcement learning. 
 
 {style="text-align: justify;"}
