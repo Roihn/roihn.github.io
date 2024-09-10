@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: New PhD Student in Computer Science & Engineering
+role: Ph.D. Student in Computer Science & Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://cse.engin.umich.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include embodied collaboration, reinforcement learning, and natural language processing.
+bio: My research interests include embodied collaboration, reinforcement learning, and natural language reasoning.
 
 # Interests to show in About widget
 interests:
@@ -120,6 +120,6 @@ social:
 highlight_name: true
 ---
 
-Run Peng is a coming Ph.D student at University of Michigan, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) in the [SLED Lab](https://sled.eecs.umich.edu/). Before, he actively worked in Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/), and worked as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include embodied agent modeling and reinforcement learning. 
+Run Peng is a Ph.D. student at University of Michigan, advised by Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) in the [SLED Lab](https://sled.eecs.umich.edu/). Before, he actively worked in Lee Lab, advised by Professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/), and worked as a reserach intern at LG AI Research, mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull). His research interests include embodied agent modeling and reinforcement learning. 
 
 {style="text-align: justify;"}
