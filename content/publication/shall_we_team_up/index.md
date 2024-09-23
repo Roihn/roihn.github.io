@@ -1,5 +1,5 @@
 ---
-title: 'Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations'
+title: 'Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -7,15 +7,20 @@ title: 'Smart Agent-Based Modeling: On the Use of Large Language Models in Compu
 authors:
   - Zengqing Wu
   - admin
-  - Xu Han
   - Shuyuan Zheng
-  - Yixin Zhang
+  - Qianying Liu
+  - Xu Han
+  - Brian Inhyuk Kwon
+  - Makoto Onizuka
+  - Shaojie Tang
   - Chuan Xiao
 
 # Author notes (optional)
-author_notes: ''
+author_notes: 
+  - Equal Contribution
+  - Equal Contribution
 
-date: '2022-11-10T00:00:00Z'
+date: '2024-07-02T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -27,10 +32,10 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: preprint
-publication_short: preprint
+publication: The 2024 Conference on Empirical Methods in Natural Language Processing
+publication_short: EMNLP 2024 (findings)
 
-abstract: "Computer simulations offer a robust toolset for exploring complex systems across various disciplines. A particularly impactful approach within this realm is Agent-Based Modeling (ABM), which harnesses the interactions of individual agents to emulate intricate system dynamics. ABM's strength lies in its bottom-up methodology, illuminating emergent phenomena by modeling the behaviors of individual components of a system. Yet, ABM has its own set of challenges, notably its struggle with modeling natural language instructions and common sense in mathematical equations or rules. This paper seeks to transcend these boundaries by integrating Large Language Models (LLMs) like GPT into ABM. This amalgamation gives birth to a novel framework, Smart Agent-Based Modeling (SABM). Building upon the concept of smart agents, entities characterized by their intelligence, adaptability, and computation ability, we explore in the direction of utilizing LLM-powered agents to simulate real-world scenarios with increased nuance and realism. In this comprehensive exploration, we elucidate the state of the art of ABM, introduce SABM's potential and methodology, and present three case studies, demonstrating the SABM methodology and validating its effectiveness in modeling real-world systems. Furthermore, we cast a vision towards several aspects of the future of SABM, anticipating a broader horizon for its applications. Through this endeavor, we aspire to redefine the boundaries of computer simulations, enabling a more profound understanding of complex systems."
+abstract: "Large Language Models (LLMs) have increasingly been utilized in social simulations, where they are often guided by carefully crafted instructions to stably exhibit human-like behaviors during simulations. Nevertheless, we doubt the necessity of shaping agents' behaviors for accurate social simulations. Instead, this paper emphasizes the importance of spontaneous phenomena, wherein agents deeply engage in contexts and make adaptive decisions without explicit directions. We explored spontaneous cooperation across three competitive scenarios and successfully simulated the gradual emergence of cooperation, findings that align closely with human behavioral data. This approach not only aids the computational social science community in bridging the gap between simulations and real-world dynamics but also offers the AI community a novel method to assess LLMs' capability of deliberate reasoning."
 
 # Summary. An optional shortened abstract.
 summary: Agent Based Modeling, Large Language Models

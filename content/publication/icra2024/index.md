@@ -28,7 +28,7 @@ summary: Interactive object detection, personalization in robotics, LLM based na
 tags:
   - Embodied AI
   - Robotics
-  - Large Language Models
+  - Large Language Model
 
 featured: false
 

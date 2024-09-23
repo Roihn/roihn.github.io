@@ -191,7 +191,9 @@ sections:
           tag: Theory of Mind
         - name: Reinforcement Learning
           tag: Reinforcement Learning
-        - name: Other
+        - name: Large Language Model
+          tag: Large Language Model
+        - name: Others
           tag: Demo
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
