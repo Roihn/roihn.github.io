@@ -21,8 +21,8 @@ Hi This is Run Peng 彭润.
 
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
-- *2024.09*: &nbsp;🎉🎉 I have continued working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab!
+- *2024.10*: &nbsp;🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
+- *2024.09*: &nbsp;🎉 I would like to continue working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab as a Ph.D. student!
 
 # 📝 Publications 
 
@@ -33,26 +33,62 @@ Hi This is Run Peng 彭润.
 
 Ziqiao Ma, Jacob Sansom, **Run Peng**, Joyce Chai
 
-\[[**Paper**](https://aclanthology.org/2023.findings-emnlp.72/)\]\[[**Dataset**](https://huggingface.co/datasets/sled-umich/2D-ATOMS)\]\[[Survey](https://github.com/Mars-tin/awesome-theory-of-mind)\]
+\[[**Paper**](https://aclanthology.org/2023.findings-emnlp.72/)\] \[[**Dataset**](https://huggingface.co/datasets/sled-umich/2D-ATOMS)\] \[[**Survey**](https://github.com/Mars-tin/awesome-theory-of-mind)\]
 </div>
 </div>
 
-- [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
-<!-- 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/icra.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Think, Act, and Ask: Open-World Interactive Personalized Robot Navigation](https://arxiv.org/pdf/2310.07968)
+
+Yinpei Dai, **Run Peng**, Sikai Li, Joyce Chai
+
+\[[**Paper**](https://arxiv.org/pdf/2310.07968)\] \[[**Code**](https://github.com/sled-group/navchat)\] \[[**Video**](https://www.youtube.com/watch?v=rN5S8QIhhQc&ab_channel=UMichSLEDLab)\] 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2023</div><img src='images/gobi.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Go Beyond Imagination: Maximizing Episodic Reachability with World Models](https://dl.acm.org/doi/abs/10.5555/3618408.3618827)
+
+Yao Fu, **Run Peng**, Honglak Lee
+
+\[[**Paper**](https://dl.acm.org/doi/abs/10.5555/3618408.3618827)\] \[[**Code**](https://github.com/wowchemy/wowchemy-hugo-themes)\]
+</div>
+</div>
+
+[Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Findings</div><img src='images/shall_we_team_up.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://aclanthology.org/2024.findings-emnlp.297/)
+
+Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwon, Makoto Onizuka, Shaojie Tang, Chuan Xiao
+
+\[[**Project**](https://shallweteamup.github.io/)\] \[[**Paper**](https://aclanthology.org/2024.findings-emnlp.297/)\] \[[**Code**](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp)\] 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
+
+Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
+
+\[[**Paper**](https://arxiv.org/abs/2311.06330)\] \[[**Code**](https://github.com/Roihn/SABM)\] 
+</div>
+</div>
+
 
 # 📖 Educations
 - *2024.09 - Now*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.09 - 2024.05*, MSE in Computer Science & Engineering, University of Michigan
 - *2020.09 - 2022.05*, BSE in Computer Science & Engineering, University of Michigan
 - *2018.09 - 2024.08*, BSE in Electrical & Computer Engineering, Shanghai Jiao Tong University
-
-
-<!-- # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
 
 # 💻 Internships & Research Experience
 - *2023.09 - 2023.12*, LG AI Research, Ann Arbor. Mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull).
