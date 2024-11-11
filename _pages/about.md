@@ -74,8 +74,8 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 
 <div class='paper-box'>
     <div class='paper-box-image'>
-    <div class="badge">preprint</div>
-        <div style="position: relative; width: 100%; height: 100px; overflow: hidden;">
+        <div style="position: relative; width: 100%; height: 150px; overflow: hidden;">
+            <div class="badge">preprint</div>
             <img src='images/sabm.png' alt="sym" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
         </div>
     </div>
