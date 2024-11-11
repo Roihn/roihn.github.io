@@ -7,9 +7,9 @@
 
 # Site Settings
 title                    : "Run Peng"
-description              : "Ph.D. Student of CSE, and Overwatch Ana Player."
+description              : "Ph.D. Student at Umich, and Overwatch Ana Player."
 repository               : "roihn/roihn.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

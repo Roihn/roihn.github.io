@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi This is Run Peng 彭润. You can call me Run or Roihn.
+Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a first-year Ph.D. student in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
+
+Agents need to be able to perceive, to reason, and to interact with the world and humans. I'm thrilled to explore agent behaviors, human behaviors, and human-AI interaction when humans are cosituated with the agents. From cognitive perspective, as we figure out the commonalities and distinctions between human and agent behaviors, I believe we can unlock new insights into the nature of understanding itself, ultimately guiding us toward the development of more general AI agents.
 
 
 # 🔥 News
@@ -103,8 +105,10 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 - **Social Activity:**
   - Explore Grad Studies Volunteer, University of Michigan
 
-<div style="width: 360px; height: 180px;">
-    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=4c4a4a&w=480&t=n&d=S6mUm81Mbw79SnVatHFAmi6pmv5FYjbSRmKSCuKu2Aw&co=b7b7b7&cmo=53ecff&cmn=ff5353&ct=989898'></script>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <div style="width: 360px; height: 180px;">
+        <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=4c4a4a&w=480&t=n&d=S6mUm81Mbw79SnVatHFAmi6pmv5FYjbSRmKSCuKu2Aw&co=b7b7b7&cmo=53ecff&cmn=ff5353&ct=989898"></script>
+    </div>
 </div>
 
-
+<br><br>
