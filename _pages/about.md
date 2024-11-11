@@ -72,7 +72,13 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" style="height: 50%; width: auto;"></div></div>
+<div class='paper-box'>
+    <div class='paper-box-image'>
+        <div style="position: relative; width: 100%; height: 50px; overflow: hidden;">
+            <div class="badge">preprint</div>
+            <img src='images/sabm.png' alt="sym" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
+        </div>
+    </div>
 <div class='paper-box-text' markdown="1">
 
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
@@ -105,7 +111,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 - **Social Activity:**
   - Explore Grad Studies Volunteer, University of Michigan
 
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+<div style="display: flex; justify-content: center; align-items: flex-start;">
     <div style="width: 360px; height: 180px;">
         <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=4c4a4a&w=480&t=n&d=S6mUm81Mbw79SnVatHFAmi6pmv5FYjbSRmKSCuKu2Aw&co=b7b7b7&cmo=53ecff&cmn=ff5353&ct=989898"></script>
     </div>
