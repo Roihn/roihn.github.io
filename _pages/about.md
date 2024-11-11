@@ -72,7 +72,7 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" height="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" style="height: 50%; width: auto;"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
