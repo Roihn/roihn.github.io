@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi This is Run Peng 彭润. 
+Hi This is Run Peng 彭润. You can call me Run or Roihn.
 
 
 # 🔥 News
@@ -59,8 +59,6 @@ Yao Fu, **Run Peng**, Honglak Lee
 </div>
 </div>
 
-[Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Findings</div><img src='images/shall_we_team_up.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -72,7 +70,7 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">preprint</div><img src='images/sabm.png' alt="sym" height="50%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
@@ -82,6 +80,8 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 \[[**Paper**](https://arxiv.org/abs/2311.06330)\] \[[**Code**](https://github.com/Roihn/SABM)\] 
 </div>
 </div>
+
+[Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
 
 
 # 📖 Educations
@@ -94,3 +94,17 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 - *2023.09 - 2023.12*, LG AI Research, Ann Arbor. Mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull).
 - *2021.10 - 2023.08*, Lee Lab, University of Michigan. Advised by professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/), mentored by [Yijie Guo](https://www.guoyijie.me/) and Violet Yao Fu.
 - *2022.12 - Now*, SLED Lab, University of Michigan.
+
+# 👔 Service
+- **Paper Review:**
+  - Conference: (AI) NeurIPS, ICLR, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI
+  - Journal: Journal of Simulation
+
+- **Social Activity:**
+  - Explore Grad Studies Volunteer, University of Michigan
+
+<div style="width: 360px; height: 180px;">
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=4c4a4a&w=480&t=n&d=S6mUm81Mbw79SnVatHFAmi6pmv5FYjbSRmKSCuKu2Aw&co=b7b7b7&cmo=53ecff&cmn=ff5353&ct=989898'></script>
+</div>
+
+
