@@ -105,7 +105,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 # 👔 Service
 - **Paper Review:**
-  - Conference: (AI) NeurIPS, ICLR, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI
+  - Conference: (AI) NeurIPS, ICLR, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI, CHI
   - Journal: Journal of Simulation
 
 - **Social Activity:**
