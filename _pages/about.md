@@ -23,6 +23,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 
 # 🔥 News
+- *2024.12*: &nbsp;❓ My photo occasionally appeared in [CSE 2024 Annual Report](https://cse-report.engin.umich.edu/?utm_source=alumni+enews&utm_medium=email&utm_campaign=annual_report#letter) of Umich.
 - *2024.10*: &nbsp;🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
 - *2024.09*: &nbsp;🎉 I would like to continue working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab as a Ph.D. student!
 
