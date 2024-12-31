@@ -94,10 +94,9 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 
 # 📖 Educations
-- *2024.09 - Now*, Ph.D. in Computer Science & Engineering, University of Michigan
-- *2022.09 - 2024.05*, MSE in Computer Science & Engineering, University of Michigan
-- *2020.09 - 2022.05*, BSE in Computer Science & Engineering, University of Michigan
-- *2018.09 - 2024.08*, BSE in Electrical & Computer Engineering, Shanghai Jiao Tong University
+- *Now*, Ph.D. in Computer Science & Engineering, University of Michigan
+- *2024*, MSE in Computer Science & Engineering, University of Michigan
+- *2022*, BSE in Computer Science & Engineering, University of Michigan
 
 # 💻 Internships & Research Experience
 - *2023.09 - 2023.12*, LG AI Research, Ann Arbor. Mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull).
