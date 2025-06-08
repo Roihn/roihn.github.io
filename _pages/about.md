@@ -23,9 +23,10 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉 I successfully passed the qualification exam! 
 - *2024.12*: &nbsp;❓ My photo occasionally appeared in [CSE 2024 Annual Report](https://cse-report.engin.umich.edu/?utm_source=alumni+enews&utm_medium=email&utm_campaign=annual_report) of Umich. (?)
 - *2024.10*: &nbsp;🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
-- *2024.09*: &nbsp;🎉 I would like to continue working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab as a Ph.D. student!
+- *2024.09*: &nbsp;🎉 I will continue working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab as a Ph.D. student!
 
 # 📝 Publications 
 
@@ -92,6 +93,17 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation](https://arxiv.org/abs/2504.16060)
+
+Ziqiao Ma, Jing Ding, Xuejun Zhang, Dezhi Luo, Jiahe Ding, Sihan Xu, Yuchen Huang, **Run Peng**, Joyce Chai
+
+\[[**Project**](https://vlm-reg.github.io/)\] \[[**Paper**](https://arxiv.org/abs/2504.16060)\] \[[**Code**](https://github.com/Mars-tin/pixrefer)\] \[[**RefOI Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI)\] \[[**RefOI-TLHF Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI-TLHF)\]
+</div>
+</div>
+
 
 # 📖 Educations
 - *Now*, Ph.D. in Computer Science & Engineering, University of Michigan
@@ -99,7 +111,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 - *2022*, BSE in Computer Science & Engineering, University of Michigan
 
 # 💻 Internships & Research Experience
-- *2023.09 - 2023.12*, LG AI Research, Ann Arbor. Mentored by [Lajanugen Logeswaran](https://sites.google.com/umich.edu/llajan/) and [Sungryull Sohn](https://sites.google.com/view/sungryull).
+- *2023.09 - 2023.12*, LG AI Research, Ann Arbor. Mentored by [Lajanugen Logeswaran](https://lajanugen.github.io/) and [Sungryull Sohn](https://sites.google.com/view/sungryull).
 - *2021.10 - 2023.08*, Lee Lab, University of Michigan. Advised by professor [Honglak Lee](https://web.eecs.umich.edu/~honglak/), mentored by [Yijie Guo](https://www.guoyijie.me/) and Violet Yao Fu.
 - *2022.12 - Now*, SLED Lab, University of Michigan.
 
