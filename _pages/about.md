@@ -117,7 +117,7 @@ Ziqiao Ma, Jing Ding, Xuejun Zhang, Dezhi Luo, Jiahe Ding, Sihan Xu, Yuchen Huan
 
 # 👔 Service
 - **Paper Review:**
-  - Conference: (AI) NeurIPS, ICLR, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI, CHI
+  - Conference: (AI) NeurIPS, ICLR, ICML, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI, CHI
   - Journal: Journal of Simulation
 
 - **Social Activity:**
