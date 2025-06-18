@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a first-year Ph.D. student in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
+Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a first-year Ph.D. candidate in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
 
 Agents need to be able to perceive, to reason, and to interact with the world and humans. I'm thrilled to explore agent behaviors, human behaviors, and human-AI interaction when humans are cosituated with the agents. From cognitive perspective, as we figure out the commonalities and distinctions between human and agent behaviors, I believe we can unlock new insights into the nature of understanding itself, ultimately guiding us toward the development of more general AI agents.
 
