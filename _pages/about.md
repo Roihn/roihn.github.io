@@ -17,13 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a first-year Ph.D. candidate in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
+Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a second-year Ph.D. candidate in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
 
 Agents need to be able to perceive, to reason, and to interact with the world and humans. I'm thrilled to explore agent behaviors, human behaviors, and human-AI interaction when humans are cosituated with the agents. From cognitive perspective, as we figure out the commonalities and distinctions between human and agent behaviors, I believe we can unlock new insights into the nature of understanding itself, ultimately guiding us toward the development of more general AI agents.
 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉 I successfully passed the qualification exam! 
+- *2025.07*: &nbsp;🎉 Two papers are accepted at CoLM 2025! Papers will be released soon!
+- *2025.06*: &nbsp;🎉 I successfully passed the qualification exam and became a Ph.D. candidate!
 - *2024.12*: &nbsp;❓ My photo occasionally appeared in [CSE 2024 Annual Report](https://cse-report.engin.umich.edu/?utm_source=alumni+enews&utm_medium=email&utm_campaign=annual_report) of Umich. (?)
 - *2024.10*: &nbsp;🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
 - *2024.09*: &nbsp;🎉 I will continue working with Professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/) at [SLED](https://sled.eecs.umich.edu/) lab as a Ph.D. student!
@@ -93,7 +94,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoLM 2025</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation](https://arxiv.org/abs/2504.16060)
