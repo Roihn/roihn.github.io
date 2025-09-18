@@ -23,6 +23,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 
 # 🔥 News
+- *2025.09*: &nbsp;😊 I will be the student poster chair for this year's [Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/). Please consider to [register](https://umich-ssc.jotform.com/251556695236971) and bring your [poster](https://forms.gle/ZKa6DCGHgjGbFRyd8) there!
 - *2025.07*: &nbsp;🎉 Two papers are accepted at CoLM 2025! Papers will be released soon!
 - *2025.06*: &nbsp;🎉 I successfully passed the qualification exam and became a Ph.D. candidate!
 - *2024.12*: &nbsp;❓ My photo occasionally appeared in [CSE 2024 Annual Report](https://cse-report.engin.umich.edu/?utm_source=alumni+enews&utm_medium=email&utm_campaign=annual_report) of Umich. (?)
