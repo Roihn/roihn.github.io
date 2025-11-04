@@ -43,16 +43,24 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/boundary.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image' style="position: relative;">
+    <div class="badge" style="position: absolute; top: 8px; left: 8px; z-index: 2;">Preprint</div>
+    <div style="width: 100%; height: 150px; overflow: hidden; position: relative;">
+      <img src='images/boundary.png' alt="sym"
+           style="position: absolute; top: 50%; left: 50%;
+                  transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
+    </div>
+  </div>
 
-[LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
+  <div class='paper-box-text' markdown="1">
+    [LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
 
-Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao
-
-\[[**Paper**](https://arxiv.org/pdf/2506.19806)\]
+    Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao  
+    \[[**Paper**](https://arxiv.org/pdf/2506.19806)\]
+  </div>
 </div>
-</div>
+
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -122,20 +130,27 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 
 <div class='paper-box'>
-    <div class='paper-box-image'>
-        <div style="position: relative; width: 100%; height: 150px; overflow: hidden;">
-            <div class="badge">preprint</div>
-            <img src='images/sabm.png' alt="sym" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
-        </div>
+  <div class='paper-box-image' style="position: relative;">
+    <!-- Badge sits above the clipped area -->
+    <div class="badge" style="position: absolute; top: 8px; left: 8px; z-index: 2;">Preprint</div>
+
+    <!-- Image container with controlled height and clipping -->
+    <div style="width: 100%; height: 150px; overflow: hidden; position: relative;">
+      <img src='images/sabm.png' alt="sym"
+           style="position: absolute;
+                  top: 50%; left: 50%;
+                  transform: translate(-50%, -50%) scale(1, 2);
+                  width: 100%;">
     </div>
-<div class='paper-box-text' markdown="1">
+  </div>
 
-[Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
+  <div class='paper-box-text' markdown="1">
+    [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
 
-Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
+    Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao  
 
-\[[**Paper**](https://arxiv.org/abs/2311.06330)\] \[[**Code**](https://github.com/Roihn/SABM)\] 
-</div>
+    \[[**Paper**](https://arxiv.org/abs/2311.06330)\] \[[**Code**](https://github.com/Roihn/SABM)\]
+  </div>
 </div>
 
 [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
