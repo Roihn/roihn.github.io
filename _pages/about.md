@@ -32,6 +32,51 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry](https://arxiv.org/abs/2510.25595)
+
+**Run Peng**\*, Ziqiao Ma\*, Amy Pang, Sikai Li, Zhang Xi-Jia, Yingzhuo Yu, Cristian-Paul Bara, Joyce Chai
+
+\[[**Paper**](https://arxiv.org/abs/2510.25595)\] \[[**Code**](https://github.com/Roihn/EinsteinPuzzles/)\] \[[**Dataset**](https://huggingface.co/datasets/Roihn/Einstein-Puzzles-Data)\] \[[**Checkpoint**](https://huggingface.co/Roihn/Einstein-Puzzles-Model)\]
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/boundary.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
+
+Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao
+
+\[[**Paper**](https://arxiv.org/pdf/2506.19806)\]
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Bootstrapping Visual Assistant Development with Situated Interaction Simulation](https://openreview.net/pdf?id=S4nTXotasR)
+
+Yichi Zhang, **Run Peng**, Lingyun Wu, Yinpei Dai, Xuweiyi Chen, Qiaozi Gao, Joyce Chai1
+
+\[[**Paper**](https://openreview.net/pdf?id=S4nTXotasR)\] \[[**Demo**](https://colm-basis.github.io/)\] 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoLM 2025</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation](https://arxiv.org/abs/2504.16060)
+
+Ziqiao Ma, Jing Ding, Xuejun Zhang, Dezhi Luo, Jiahe Ding, Sihan Xu, Yuchen Huang, **Run Peng**, Joyce Chai
+
+\[[**Project**](https://vlm-reg.github.io/)\] \[[**Paper**](https://arxiv.org/abs/2504.16060)\] \[[**Code**](https://github.com/Mars-tin/pixrefer)\] \[[**RefOI Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI)\] \[[**RefOI-TLHF Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI-TLHF)\]
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 Findings</div><img src='images/tom.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -95,16 +140,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoLM 2025</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
 
-[Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation](https://arxiv.org/abs/2504.16060)
-
-Ziqiao Ma, Jing Ding, Xuejun Zhang, Dezhi Luo, Jiahe Ding, Sihan Xu, Yuchen Huang, **Run Peng**, Joyce Chai
-
-\[[**Project**](https://vlm-reg.github.io/)\] \[[**Paper**](https://arxiv.org/abs/2504.16060)\] \[[**Code**](https://github.com/Mars-tin/pixrefer)\] \[[**RefOI Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI)\] \[[**RefOI-TLHF Dataset**](https://huggingface.co/datasets/Seed42Lab/RefOI-TLHF)\]
-</div>
-</div>
 
 
 # 📖 Educations
