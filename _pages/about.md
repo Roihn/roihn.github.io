@@ -43,27 +43,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 </div>
 </div>
 
-<div class='paper-box'>
-    <div class="paper-box-image">
-  <div style="
-      position: relative;
-      width: 100%;
-      max-height: 150px;
-      overflow: hidden;
-    ">
-    <div class="badge">Preprint</div>
-    <img
-      src="images/boundary.png"
-      alt="sym"
-      style="
-        width: 100%;
-        height: auto;
-        display: block;
-        object-fit: cover;
-      "
-    >
-  </div>
-</div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/boundary.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
@@ -141,30 +121,8 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
-
-<div class='paper-box'>
-  <div class="paper-box-image">
-  <div style="
-      position: relative;
-      width: 100%;
-      max-height: 150px;
-      overflow: hidden;
-    ">
-    <div class="badge">Preprint</div>
-    <img
-      src="images/sabm.png"
-      alt="sym"
-      style="
-        width: 100%;
-        height: auto;
-        display: block;
-        object-fit: cover;
-      "
-    >
-  </div>
-</div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sabm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
 
 Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
