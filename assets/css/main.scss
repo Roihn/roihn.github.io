@@ -50,26 +50,34 @@
     padding: 2em 0 2em 0;
 
     .paper-box-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    order: 2;
+
+    .image-wrapper {
         position: relative;
-        display: flex;
-        justify-content: center;
+        box-shadow: 3px 3px 6px #888;
+        border-radius: 6px;
+        max-height: 160px;
+        overflow: hidden;
+        transition: max-height 0.6s ease, transform 0.3s ease; // smooth animation
+        cursor: pointer;
+
+        &:hover {
+        max-height: 1000px; // reveals full image
+        transform: scale(1.02); // slight zoom
+        z-index: 2;
+        }
+    }
+
+    img {
         width: 100%;
-        order: 2;
-
-        .image-wrapper {
-            position: relative;
-            box-shadow: 3px 3px 6px #888;
-            border-radius: 4px;
-            overflow: hidden; // move here ✅
-            max-height: 160px; // and keep your clipping limit here ✅
-        }
-
-        img {
-            width: 100%;
-            height: auto;
-            display: block;
-            object-fit: cover;
-        }
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
     }
     
     .paper-box-text{
