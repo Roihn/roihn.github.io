@@ -24,7 +24,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 🔥 News
 - *2025.09*: &nbsp;😊 I will be the student poster chair for this year's [Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/). Please consider to [register](https://umich-ssc.jotform.com/251556695236971) and bring your [poster](https://forms.gle/ZKa6DCGHgjGbFRyd8) there!
-- *2025.07*: &nbsp;🎉 Two papers are accepted at CoLM 2025! Papers will be released soon!
+- *2025.07*: &nbsp;🎉 Two papers are accepted at CoLM 2025! Papers have been released!
 - *2025.06*: &nbsp;🎉 I successfully passed the qualification exam and became a Ph.D. candidate!
 - *2024.12*: &nbsp;❓ My photo occasionally appeared in [CSE 2024 Annual Report](https://cse-report.engin.umich.edu/?utm_source=alumni+enews&utm_medium=email&utm_campaign=annual_report) of Umich. (?)
 - *2024.10*: &nbsp;🎉 One paper accepted at EMNLP 2024 findings! See you at Miami!
@@ -44,12 +44,26 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 </div>
 
 <div class='paper-box'>
-    <div class='paper-box-image'>
-        <div style="position: relative; width: 100%; height: 150px; overflow: hidden;">
-            <div class="badge">Preprint</div>
-            <img src='images/boundary.png' alt="sym" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
-        </div>
-    </div>
+    <div class="paper-box-image">
+  <div style="
+      position: relative;
+      width: 100%;
+      max-height: 400px;
+      overflow: hidden;
+    ">
+    <div class="badge">Preprint</div>
+    <img
+      src="images/boundary.png"
+      alt="sym"
+      style="
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+      "
+    >
+  </div>
+</div>
 <div class='paper-box-text' markdown="1">
 
 [LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
