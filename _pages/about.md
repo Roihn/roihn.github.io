@@ -32,7 +32,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">Preprint</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">ICML 2025 MAS Workshop</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry](https://arxiv.org/abs/2510.25595)
