@@ -32,7 +32,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">Preprint</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry](https://arxiv.org/abs/2510.25595)
@@ -43,7 +43,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/boundary.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">Preprint</div><img src='images/boundary.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
@@ -54,7 +54,7 @@ Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">COLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">COLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Bootstrapping Visual Assistant Development with Situated Interaction Simulation](https://openreview.net/pdf?id=S4nTXotasR)
@@ -65,7 +65,7 @@ Yichi Zhang, **Run Peng**, Lingyun Wu, Yinpei Dai, Xuweiyi Chen, Qiaozi Gao, Joy
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoLM 2025</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">CoLM 2025</div><img src='images/pragmatics.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Vision-Language Models Are Not Pragmatically Competent in Referring Expression Generation](https://arxiv.org/abs/2504.16060)
@@ -77,7 +77,7 @@ Ziqiao Ma, Jing Ding, Xuejun Zhang, Dezhi Luo, Jiahe Ding, Sihan Xu, Yuchen Huan
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2023 Findings</div><img src='images/tom.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">EMNLP 2023 Findings</div><img src='images/tom.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Towards A Holistic Landscape of Situated Theory of Mind in Large Language Models](https://aclanthology.org/2023.findings-emnlp.72/)
@@ -88,7 +88,7 @@ Ziqiao Ma, Jacob Sansom, **Run Peng**, Joyce Chai
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2024</div><img src='images/icra.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">ICRA 2024</div><img src='images/icra.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Think, Act, and Ask: Open-World Interactive Personalized Robot Navigation](https://arxiv.org/pdf/2310.07968)
@@ -99,7 +99,7 @@ Yinpei Dai, **Run Peng**, Sikai Li, Joyce Chai
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2023</div><img src='images/gobi.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">ICML 2023</div><img src='images/gobi.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Go Beyond Imagination: Maximizing Episodic Reachability with World Models](https://dl.acm.org/doi/abs/10.5555/3618408.3618827)
@@ -110,7 +110,7 @@ Yao Fu, **Run Peng**, Honglak Lee
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2024 Findings</div><img src='images/shall_we_team_up.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">EMNLP 2024 Findings</div><img src='images/shall_we_team_up.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://aclanthology.org/2024.findings-emnlp.297/)
@@ -121,7 +121,7 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/sabm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">Preprint</div><img src='images/sabm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
 
