@@ -48,7 +48,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
   <div style="
       position: relative;
       width: 100%;
-      max-height: 200px;
+      max-height: 150px;
       overflow: hidden;
     ">
     <div class="badge">Preprint</div>
@@ -141,13 +141,28 @@ Zengqing Wu\*, **Run Peng**\*, Shuyuan Zheng, Qianying Liu, Xu Han, Brian I. Kwo
 </div>
 </div>
 
+
 <div class='paper-box'>
-    <div class='paper-box-image'>
-        <div style="position: relative; width: 100%; height: 150px; overflow: hidden;">
-            <div class="badge">preprint</div>
-            <img src='images/sabm.png' alt="sym" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(1, 2); width: 100%;">
-        </div>
-    </div>
+  <div class="paper-box-image">
+  <div style="
+      position: relative;
+      width: 100%;
+      max-height: 150px;
+      overflow: hidden;
+    ">
+    <div class="badge">Preprint</div>
+    <img
+      src="images/sabm.png"
+      alt="sym"
+      style="
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+      "
+    >
+  </div>
+</div>
 <div class='paper-box-text' markdown="1">
 
 [Smart Agent-Based Modeling: On the Use of Large Language Models in Computer Simulations](https://arxiv.org/abs/2311.06330)
