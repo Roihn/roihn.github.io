@@ -48,7 +48,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
   <div style="
       position: relative;
       width: 100%;
-      max-height: 400px;
+      max-height: 200px;
       overflow: hidden;
     ">
     <div class="badge">Preprint</div>
