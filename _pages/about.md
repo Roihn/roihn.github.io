@@ -134,8 +134,6 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 [Learning Exploration Policies with View-based Intrinsic Rewards](https://openreview.net/forum?id=C2_6qBhe5fH), Yijie Guo\*, Yao Fu\*, **Run Peng**, Honglak Lee, **In *NeurIPS* 2022 DRL Workshop**
 
 
-
-
 # 📖 Educations
 - *Now*, Ph.D. in Computer Science & Engineering, University of Michigan
 - *2024*, MSE in Computer Science & Engineering, University of Michigan
@@ -148,10 +146,11 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
 
 # 👔 Service
 - **Paper Review:**
-  - Conference: (AI) NeurIPS, ICLR, ICML, AISTATS (NLP) EMNLP, NAACL, COLM, (HCI) HRI, CHI
+  - Conference: (AI) NeurIPS, ICLR, ICML, AISTATS (NLP) ARR, EMNLP, NAACL, COLM, (HCI) HRI, CHI
   - Journal: Journal of Simulation
 
 - **Social Activity:**
+  - Poster Student Co-Chair, Michigan AI symposium 2025
   - Explore Grad Studies Volunteer, University of Michigan
 
 <div style="display: flex;  align-items: flex-start;">
