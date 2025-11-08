@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Run Peng"
-description              : "Ph.D. Student at Umich, and Overwatch Ana Player."
+description              : "Ph.D. Candidate at Umich, and Overwatch Ana Player."
 repository               : "roihn/roihn.github.io"
 google_scholar_stats_use_cdn : false
 
@@ -57,6 +57,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  cv               : "https://roihn.github.io/CV_Run_Peng.pdf"
 
 
 # Reading Files

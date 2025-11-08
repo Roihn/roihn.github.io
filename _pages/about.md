@@ -54,7 +54,7 @@ Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">COLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">CoLM 2025</div><img src='images/basis.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Bootstrapping Visual Assistant Development with Situated Interaction Simulation](https://openreview.net/pdf?id=S4nTXotasR)
