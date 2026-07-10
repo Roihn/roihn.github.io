@@ -23,6 +23,9 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 
 # 🔥 News
+- *2026.07*: &nbsp;🎉 "Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry" is accepted at COLM 2026!
+- *2026.05*: &nbsp;🎉 "LLM-Based Social Simulations Require a Boundary" is accepted at ICML 2026!
+- *2026.04*: &nbsp;😊 I will be the student coordinator for this year's [NLP@Michigan Day](https://ai.engin.umich.edu/news/nlp-michigan-day-2026/).
 - *2025.09*: &nbsp;😊 I will be the student poster chair for this year's [Michigan AI Symposium](https://ai.engin.umich.edu/events/2025-ai-symposium/). Please consider to [register](https://umich-ssc.jotform.com/251556695236971) and bring your [poster](https://forms.gle/ZKa6DCGHgjGbFRyd8) there!
 - *2025.07*: &nbsp;🎉 Two papers are accepted at CoLM 2025! Papers have been released!
 - *2025.06*: &nbsp;🎉 I successfully passed the qualification exam and became a Ph.D. candidate!
@@ -32,7 +35,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">ICML 2025 MAS Workshop</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">COLM 2026</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry](https://arxiv.org/abs/2510.25595)
@@ -48,7 +51,7 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 [LLM-Based Social Simulations Require a Boundary](https://arxiv.org/pdf/2506.19806)
 
-Zengqing Wu, **Run Peng**, Takayuki Ito, Chuan Xiao
+Zengqing Wu, **Run Peng**, Takayuki Ito, Makoto Onizuka, Chuan Xiao
 
 \[[**Paper**](https://arxiv.org/pdf/2506.19806)\]
 </div>
