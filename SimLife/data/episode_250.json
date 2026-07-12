@@ -1,0 +1,2084 @@
+{
+ "video_chain_id": 250,
+ "phenomenon_id": 509,
+ "rule": "Mother Sim practices piano daily. She sustains a wrist injury, and plays less frequently, only on weekends.",
+ "hints": {
+  "none": "",
+  "abstract": "It is related to the day of the week.",
+  "explicit": "It has the same pattern every day; It is related to whether today is Saturday or Sunday."
+ },
+ "evolution": [
+  {
+   "evolution_rule_id": 29,
+   "evolution_desc": "Mother Sim sustains a wrist injury.",
+   "from_profile_id": 785,
+   "to_profile_id": 786
+  }
+ ],
+ "dynamic": true,
+ "phases": [
+  {
+   "label": "practices piano daily",
+   "color": "blue"
+  },
+  {
+   "label": "practice piano only on the weekend",
+   "color": "green"
+  }
+ ],
+ "eliminations": [
+  6,
+  23
+ ],
+ "n_days": 28,
+ "days": [
+  {
+   "pos": 0,
+   "date": "2025-10-16",
+   "dow": "Thu",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "19:52-19:56",
+    "video": "20:52-20:58",
+    "clip": "assets/clips250/pos_0.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "19:32-19:52",
+     "video": "20:23-20:52",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "19:52-19:56",
+     "video": "20:52-20:58"
+    },
+    {
+     "name": "Watch Join",
+     "cat": "piano",
+     "game": "20:07-20:12",
+     "video": "21:14-21:22",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 1,
+   "date": "2025-10-17",
+   "dow": "Fri",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "20:53-20:56",
+    "video": "22:24-22:28",
+    "clip": "assets/clips250/pos_1.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Game",
+     "cat": "video_games",
+     "game": "18:32-18:49",
+     "video": "18:53-19:17",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "20:53-20:56",
+     "video": "22:24-22:28"
+    },
+    {
+     "name": "Cleanup Mop",
+     "cat": "general",
+     "game": "21:08-21:14",
+     "video": "22:46-22:55",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 2,
+   "date": "2025-10-18",
+   "dow": "Sat",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "18:44-18:48",
+    "video": "19:15-19:20",
+    "clip": "assets/clips250/pos_2.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Drink",
+     "cat": "general",
+     "game": "18:37-18:40",
+     "video": "19:05-19:08",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "18:44-18:48",
+     "video": "19:15-19:20"
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "18:45-19:12",
+     "video": "19:16-19:56",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 3,
+   "date": "2025-10-19",
+   "dow": "Sun",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "19:33-19:35",
+    "video": "20:28-20:32",
+    "clip": "assets/clips250/pos_3.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "18:53-19:00",
+     "video": "19:28-19:38",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "19:33-19:35",
+     "video": "20:28-20:32"
+    },
+    {
+     "name": "Watch Join",
+     "cat": "piano",
+     "game": "19:43-19:49",
+     "video": "20:43-20:52",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 4,
+   "date": "2025-10-20",
+   "dow": "Mon",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Evening piano, only mentioned",
+    "game": "18:28",
+    "video": null,
+    "clip": "assets/clips250/pos_4.mp4"
+   },
+   "dialogue": {
+    "label": "Evening piano, only mentioned",
+    "audio": "assets/audio/vc250_pos4.mp3",
+    "transcript": [
+     {
+      "speaker": "Mother Sim",
+      "text": "How does the soup taste for dinner now?"
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "It tastes wonderful because you cooked so well."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I hope the kids will enjoy eating this dinner very much."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "I think they will eat happily today."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I already finished writing my special work report for the evening."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "You look relaxed and calm."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I might play the piano later on this evening."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "I will let you finish that now."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "The music will save the tired room."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Nice to hear the music sounds nice."
+     }
+    ]
+   },
+   "snapshot": [
+    {
+     "target": true,
+     "name": "Evening piano, only mentioned",
+     "game": "18:28",
+     "video": null
+    }
+   ]
+  },
+  {
+   "pos": 5,
+   "date": "2025-10-21",
+   "dow": "Tue",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "18:51-18:53",
+    "video": "19:20-19:24",
+    "clip": "assets/clips250/pos_5.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "18:12-18:20",
+     "video": "18:23-18:34",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "18:51-18:53",
+     "video": "19:20-19:24"
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "19:08-19:10",
+     "video": "19:47-19:50",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 6,
+   "date": "2025-10-22",
+   "dow": "Wed",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "18:07-18:17",
+    "video": "18:14-18:30",
+    "clip": "assets/clips250/pos_6.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Pep Talk",
+     "cat": "charisma",
+     "game": "17:59-18:09",
+     "video": "18:02-18:17",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "18:07-18:17",
+     "video": "18:14-18:30"
+    },
+    {
+     "name": "Cleanup Mop",
+     "cat": "general",
+     "game": "18:29-18:41",
+     "video": "18:48-19:06",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 7,
+   "date": "2025-10-23",
+   "dow": "Thu",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "06:52-06:55",
+    "video": "01:22-01:27",
+    "clip": "assets/clips250/pos_7.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "06:39-06:43",
+     "video": "01:02-01:09",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "06:52-06:55",
+     "video": "01:22-01:27"
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "07:10-07:19",
+     "video": "01:49-02:02",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 8,
+   "date": "2025-10-24",
+   "dow": "Fri",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "19:36-19:40",
+    "video": "20:28-20:34",
+    "clip": "assets/clips250/pos_8.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Ask About Day",
+     "cat": "social",
+     "game": "18:47-18:58",
+     "video": "19:14-19:30",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "19:36-19:40",
+     "video": "20:28-20:34"
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "19:38-19:44",
+     "video": "20:32-20:40",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 9,
+   "date": "2025-10-25",
+   "dow": "Sat",
+   "dcs": 698,
+   "color": "blue",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 0,
+   "target": {
+    "desc": "Piano",
+    "game": "21:08-21:14",
+    "video": "22:51-22:59",
+    "clip": "assets/clips250/pos_9.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "20:54-20:55",
+     "video": "22:29-22:31",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "21:08-21:14",
+     "video": "22:51-22:59"
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "21:24-21:33",
+     "video": "23:14-23:28",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 10,
+   "date": "2025-10-26",
+   "dow": "Sun",
+   "dcs": null,
+   "color": "purple",
+   "activity": null,
+   "evolution": true,
+   "phase": null,
+   "target": {
+    "desc": "The rule changes: wrist injury",
+    "game": "10:07",
+    "video": null,
+    "clip": "assets/clips250/pos_10.mp4"
+   },
+   "dialogue": {
+    "label": "The rule changes: wrist injury",
+    "audio": "assets/audio/vc250_pos10.mp3",
+    "transcript": [
+     {
+      "speaker": "Mother Sim",
+      "text": "I tweaked my wrist playing piano, so I rest."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "That hurts. You should definitely rest that wrist."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I really wanted to play, but it hurts so much."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Your hands are vital for cooking, so rest them well."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Yeah, I guess I need to relax."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "You are strong, and I know you will heal quickly soon. Just focus on resting well and take care."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Thanks for saying that, it really helps me feel better."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Let me know if you need anything to help."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I will take care, I promise I will be careful."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Okay, rest up and I will keep an eye on the situation."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "That sounds good, I will just relax and do nothing."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Enjoy your break, and we can chat about piano later."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Sounds great, I am ready to just chill out today."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "I love you, and I am here to support you now."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Thank you, that means a lot to me right now."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Just let me know if you need anything else today."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Okay, I will stay here and take it easy."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Okay, I will leave you to rest now then today."
+     }
+    ]
+   },
+   "snapshot": [
+    {
+     "target": true,
+     "name": "The rule changes: wrist injury",
+     "game": "10:07",
+     "video": null
+    }
+   ]
+  },
+  {
+   "pos": 11,
+   "date": "2025-10-27",
+   "dow": "Mon",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "06:44-06:46",
+     "video": "01:10-01:12",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "06:50-06:58",
+     "video": "01:19-01:31",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "06:58-07:06",
+     "video": "01:31-01:43",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "07:12-07:22",
+     "video": "01:51-02:07",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:26-07:54",
+     "video": "02:12-02:55",
+     "target": false
+    },
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "08:16-08:16",
+     "video": "03:28-03:29",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:16-08:16",
+     "video": "03:28-03:29",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "08:29-08:35",
+     "video": "03:48-03:56",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 12,
+   "date": "2025-10-28",
+   "dow": "Tue",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Watch TV",
+     "cat": "general",
+     "game": "07:03-07:45",
+     "video": "01:39-02:41",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:46-07:52",
+     "video": "02:43-02:51",
+     "target": false
+    },
+    {
+     "name": "Cry",
+     "cat": "general",
+     "game": "08:27-08:39",
+     "video": "03:44-04:03",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:48-08:48",
+     "video": "04:15-04:16",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "08:50-08:56",
+     "video": "04:19-04:27",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "08:56-09:04",
+     "video": "04:27-04:41",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:15-09:20",
+     "video": "04:57-05:04",
+     "target": false
+    },
+    {
+     "name": "At Work Or School",
+     "cat": "general",
+     "game": "09:20-16:59",
+     "video": "05:04-16:33",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 13,
+   "date": "2025-10-29",
+   "dow": "Wed",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "06:28-06:35",
+     "video": "00:47-00:57",
+     "target": false
+    },
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "06:55-07:02",
+     "video": "01:27-01:37",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:04-07:09",
+     "video": "01:40-01:48",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "07:16-07:22",
+     "video": "01:58-02:08",
+     "target": false
+    },
+    {
+     "name": "Compliment",
+     "cat": "charisma",
+     "game": "07:22-07:25",
+     "video": "02:08-02:12",
+     "target": false
+    },
+    {
+     "name": "Cry",
+     "cat": "general",
+     "game": "07:28-07:40",
+     "video": "02:15-02:34",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:40-07:43",
+     "video": "02:35-02:39",
+     "target": false
+    },
+    {
+     "name": "Take Shower",
+     "cat": "general",
+     "game": "07:54-08:10",
+     "video": "02:55-03:19",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 14,
+   "date": "2025-10-30",
+   "dow": "Thu",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:52-07:59",
+     "video": "02:52-03:02",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "08:19-08:25",
+     "video": "03:33-03:42",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:12-09:17",
+     "video": "04:52-05:00",
+     "target": false
+    },
+    {
+     "name": "At Work Or School",
+     "cat": "general",
+     "game": "09:17-17:10",
+     "video": "05:00-16:49",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "18:00-18:07",
+     "video": "18:05-18:15",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 15,
+   "date": "2025-10-31",
+   "dow": "Fri",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:04-07:05",
+     "video": "01:40-01:41",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "07:05-07:13",
+     "video": "01:41-01:53",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "07:13-07:19",
+     "video": "01:53-02:02",
+     "target": false
+    },
+    {
+     "name": "Chess Social",
+     "cat": "logic",
+     "game": "07:22-07:25",
+     "video": "02:07-02:12",
+     "target": false
+    },
+    {
+     "name": "Chess",
+     "cat": "logic",
+     "game": "07:25-07:29",
+     "video": "02:12-02:17",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:51-08:30",
+     "video": "02:51-03:49",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "08:30-08:55",
+     "video": "03:49-04:26",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "08:55-09:03",
+     "video": "04:26-04:38",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 16,
+   "date": "2025-11-01",
+   "dow": "Sat",
+   "dcs": 700,
+   "color": "green",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 1,
+   "target": {
+    "desc": "Piano",
+    "game": "17:56-18:00",
+    "video": "18:02-18:08",
+    "clip": "assets/clips250/pos_16.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "17:35-17:45",
+     "video": "17:31-17:47",
+     "target": false
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "17:55-18:22",
+     "video": "18:01-18:41",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "17:56-18:00",
+     "video": "18:02-18:08"
+    }
+   ]
+  },
+  {
+   "pos": 17,
+   "date": "2025-11-02",
+   "dow": "Sun",
+   "dcs": 700,
+   "color": "green",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 1,
+   "target": {
+    "desc": "Piano happened off-screen",
+    "game": "12:51",
+    "video": null,
+    "clip": "assets/clips250/pos_17.mp4"
+   },
+   "dialogue": {
+    "label": "Piano happened off-screen",
+    "audio": "assets/audio/vc250_pos17.mp3",
+    "transcript": [
+     {
+      "speaker": "Father Sim",
+      "text": "Is this pasta ready for tonight dinner yet?"
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I am checking the sauce before serving it now."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "The smell of soup is really something wonderful."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I will play piano this evening after dinner now."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Okay sounds good. How long will you practice?"
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Only a few songs in the living room."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Good idea. Son might enjoy listening to music."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Hopefully he is available for the evening session."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Yes. The pasta needs to boil for a few minutes."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I will chop some vegetables if you want some help."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "No need. I can finish the very last cooking task."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "We should clean the kitchen after everyone eats."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Right now just focus on the side dishes."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "I will wash the bowls with clean water."
+     },
+     {
+      "speaker": "Father Sim",
+      "text": "Excellent. It is nearly done for the night."
+     },
+     {
+      "speaker": "Mother Sim",
+      "text": "Ready soon. See you inside after dinner."
+     }
+    ]
+   },
+   "snapshot": [
+    {
+     "target": true,
+     "name": "Piano happened off-screen",
+     "game": "12:51",
+     "video": null
+    }
+   ]
+  },
+  {
+   "pos": 18,
+   "date": "2025-11-03",
+   "dow": "Mon",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:21-07:30",
+     "video": "02:06-02:19",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "07:44-07:50",
+     "video": "02:40-02:49",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "07:49-07:55",
+     "video": "02:48-02:56",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:58-07:59",
+     "video": "03:02-03:02",
+     "target": false
+    },
+    {
+     "name": "Read On Computer",
+     "cat": "writing",
+     "game": "08:17-08:22",
+     "video": "03:29-03:37",
+     "target": false
+    },
+    {
+     "name": "Keyboard Use",
+     "cat": "writing",
+     "game": "08:22-08:28",
+     "video": "03:37-03:45",
+     "target": false
+    },
+    {
+     "name": "Read On Computer",
+     "cat": "writing",
+     "game": "08:28-08:30",
+     "video": "03:45-03:49",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:30-08:31",
+     "video": "03:49-03:50",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 19,
+   "date": "2025-11-04",
+   "dow": "Tue",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "06:58-07:02",
+     "video": "01:31-01:37",
+     "target": false
+    },
+    {
+     "name": "Impression",
+     "cat": "comedy",
+     "game": "06:58-07:08",
+     "video": "01:31-01:46",
+     "target": false
+    },
+    {
+     "name": "Listen With Phone",
+     "cat": "social",
+     "game": "07:08-07:20",
+     "video": "01:46-02:05",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "07:20-07:40",
+     "video": "02:05-02:34",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:43-07:49",
+     "video": "02:38-02:47",
+     "target": false
+    },
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "08:05-08:07",
+     "video": "03:11-03:15",
+     "target": false
+    },
+    {
+     "name": "Cry",
+     "cat": "general",
+     "game": "08:47-08:59",
+     "video": "04:14-04:32",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:14-09:19",
+     "video": "04:55-05:02",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 20,
+   "date": "2025-11-05",
+   "dow": "Wed",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:24-07:27",
+     "video": "02:09-02:15",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "07:31-07:38",
+     "video": "02:20-02:30",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "07:38-07:45",
+     "video": "02:30-02:42",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:48-07:52",
+     "video": "02:45-02:52",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "08:00-08:01",
+     "video": "03:04-03:05",
+     "target": false
+    },
+    {
+     "name": "Play Song",
+     "cat": "piano",
+     "game": "08:16-08:38",
+     "video": "03:28-04:02",
+     "target": false
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "08:38-08:46",
+     "video": "04:02-04:13",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:06-09:11",
+     "video": "04:43-04:51",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 21,
+   "date": "2025-11-06",
+   "dow": "Thu",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:20-07:21",
+     "video": "02:05-02:05",
+     "target": false
+    },
+    {
+     "name": "Listen With Phone",
+     "cat": "social",
+     "game": "07:21-07:27",
+     "video": "02:05-02:15",
+     "target": false
+    },
+    {
+     "name": "Start Rumor",
+     "cat": "mischief",
+     "game": "07:28-07:37",
+     "video": "02:16-02:29",
+     "target": false
+    },
+    {
+     "name": "Cry",
+     "cat": "general",
+     "game": "07:39-08:07",
+     "video": "02:33-03:14",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "08:07-08:25",
+     "video": "03:14-03:41",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:25-08:31",
+     "video": "03:41-03:51",
+     "target": false
+    },
+    {
+     "name": "Express Fondness",
+     "cat": "social",
+     "game": "08:29-08:33",
+     "video": "03:47-03:54",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:57-09:01",
+     "video": "04:29-04:36",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 22,
+   "date": "2025-11-07",
+   "dow": "Fri",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "07:21-07:27",
+     "video": "02:06-02:14",
+     "target": false
+    },
+    {
+     "name": "Scare",
+     "cat": "mischief",
+     "game": "07:22-07:40",
+     "video": "02:07-02:33",
+     "target": false
+    },
+    {
+     "name": "Play Song",
+     "cat": "piano",
+     "game": "07:52-08:31",
+     "video": "02:52-03:50",
+     "target": false
+    },
+    {
+     "name": "Start Crafting",
+     "cat": "handiness",
+     "game": "08:31-08:39",
+     "video": "03:50-04:03",
+     "target": false
+    },
+    {
+     "name": "Create",
+     "cat": "other",
+     "game": "08:39-08:41",
+     "video": "04:03-04:06",
+     "target": false
+    },
+    {
+     "name": "Drink",
+     "cat": "general",
+     "game": "08:41-08:46",
+     "video": "04:06-04:12",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "08:46-08:48",
+     "video": "04:12-04:16",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:48-08:56",
+     "video": "04:16-04:28",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 23,
+   "date": "2025-11-08",
+   "dow": "Sat",
+   "dcs": 700,
+   "color": "green",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 1,
+   "target": {
+    "desc": "Piano",
+    "game": "21:34-21:38",
+    "video": "23:30-23:36",
+    "clip": "assets/clips250/pos_23.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Wash Hands",
+     "cat": "general",
+     "game": "19:55-19:56",
+     "video": "21:00-21:03",
+     "target": false
+    },
+    {
+     "name": "Watch Join",
+     "cat": "piano",
+     "game": "20:19-20:24",
+     "video": "21:37-21:45",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "21:34-21:38",
+     "video": "23:30-23:36"
+    }
+   ]
+  },
+  {
+   "pos": 24,
+   "date": "2025-11-09",
+   "dow": "Sun",
+   "dcs": 700,
+   "color": "green",
+   "activity": "piano_playing",
+   "evolution": false,
+   "phase": 1,
+   "target": {
+    "desc": "Piano",
+    "game": "20:49-20:54",
+    "video": "22:22-22:30",
+    "clip": "assets/clips250/pos_24.mp4"
+   },
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Troll Forum",
+     "cat": "mischief",
+     "game": "19:56-19:56",
+     "video": "21:03-21:03",
+     "target": false
+    },
+    {
+     "name": "Listen",
+     "cat": "general",
+     "game": "20:28-20:36",
+     "video": "21:51-22:02",
+     "target": false
+    },
+    {
+     "name": "Piano",
+     "cat": "fitness",
+     "target": true,
+     "game": "20:49-20:54",
+     "video": "22:22-22:30"
+    }
+   ]
+  },
+  {
+   "pos": 25,
+   "date": "2025-11-10",
+   "dow": "Mon",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Song",
+     "cat": "piano",
+     "game": "06:49-07:10",
+     "video": "01:17-01:49",
+     "target": false
+    },
+    {
+     "name": "Repair Sink",
+     "cat": "other",
+     "game": "07:10-07:14",
+     "video": "01:49-01:55",
+     "target": false
+    },
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "07:17-07:18",
+     "video": "01:59-02:01",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:32-07:50",
+     "video": "02:22-02:49",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "07:57-07:58",
+     "video": "03:00-03:02",
+     "target": false
+    },
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "08:49-08:52",
+     "video": "04:18-04:22",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "09:01-09:01",
+     "video": "04:35-04:36",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:09-09:14",
+     "video": "04:48-04:56",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 26,
+   "date": "2025-11-11",
+   "dow": "Tue",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "07:07-07:11",
+     "video": "01:45-01:51",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "07:13-07:37",
+     "video": "01:54-02:29",
+     "target": false
+    },
+    {
+     "name": "Get To Know",
+     "cat": "social",
+     "game": "07:39-07:44",
+     "video": "02:33-02:41",
+     "target": false
+    },
+    {
+     "name": "Lie",
+     "cat": "mischief",
+     "game": "07:42-07:50",
+     "video": "02:37-02:49",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "07:53-08:10",
+     "video": "02:53-03:19",
+     "target": false
+    },
+    {
+     "name": "Kiss",
+     "cat": "social",
+     "game": "08:12-08:12",
+     "video": "03:21-03:22",
+     "target": false
+    },
+    {
+     "name": "Cry",
+     "cat": "general",
+     "game": "08:12-08:24",
+     "video": "03:22-03:41",
+     "target": false
+    },
+    {
+     "name": "Kiss",
+     "cat": "social",
+     "game": "08:41-08:44",
+     "video": "04:05-04:11",
+     "target": false
+    }
+   ]
+  },
+  {
+   "pos": 27,
+   "date": "2025-11-12",
+   "dow": "Wed",
+   "dcs": 699,
+   "color": "gray",
+   "activity": null,
+   "evolution": false,
+   "phase": 1,
+   "target": null,
+   "dialogue": null,
+   "snapshot": [
+    {
+     "name": "Play Pingpong",
+     "cat": "general",
+     "game": "06:30-06:35",
+     "video": "00:50-00:56",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "06:59-07:55",
+     "video": "01:32-02:56",
+     "target": false
+    },
+    {
+     "name": "Idle Chat",
+     "cat": "social",
+     "game": "08:02-08:07",
+     "video": "03:07-03:14",
+     "target": false
+    },
+    {
+     "name": "Chat",
+     "cat": "social",
+     "game": "08:16-08:56",
+     "video": "03:28-04:28",
+     "target": false
+    },
+    {
+     "name": "At Work",
+     "cat": "general",
+     "game": "09:09-09:14",
+     "video": "04:48-04:56",
+     "target": false
+    },
+    {
+     "name": "At Work Or School",
+     "cat": "general",
+     "game": "09:14-17:01",
+     "video": "04:56-16:36",
+     "target": false
+    },
+    {
+     "name": "Cleanup Dishes",
+     "cat": "general",
+     "game": "17:44-17:45",
+     "video": "17:40-17:41",
+     "target": false
+    },
+    {
+     "name": "Affection",
+     "cat": "social",
+     "game": "17:55-17:58",
+     "video": "17:56-18:00",
+     "target": false
+    }
+   ]
+  }
+ ],
+ "tasks": [
+  {
+   "task_id": 1257,
+   "pos": 9,
+   "date": "2025-10-25",
+   "dow": "Sat",
+   "color": "blue",
+   "activity": "piano_playing",
+   "kind": "normal",
+   "anchor": null,
+   "stop_video": "06:49",
+   "stop_game": "10:27",
+   "screenshot": "assets/shots250/pos_9.jpg",
+   "hints": {
+    "none": "",
+    "abstract": "It is related to the day of the week.",
+    "explicit": "It has the same pattern every day."
+   },
+   "phase": 0,
+   "questions": [
+    {
+     "type": "direct",
+     "label": "Direct",
+     "binary": {
+      "q": "Will the woman (Mother Sim) in the view play the piano today between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Which statement is more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view will play the piano today between 6pm and 10pm",
+       "The woman (Mother Sim) in the view will not play the piano today between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view will play the piano today between 6pm and 10pm"
+     }
+    },
+    {
+     "type": "counterfactual",
+     "label": "Counterfactual",
+     "binary": {
+      "q": "If today were Friday, would the woman (Mother Sim) in the view play the piano today between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If today were Friday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would play the piano today between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would not play the piano today between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would play the piano today between 6pm and 10pm"
+     }
+    },
+    {
+     "type": "noise_counterfactual",
+     "label": "Noisy",
+     "binary": {
+      "q": "If the woman (Mother Sim) in the view had washed the dishes yesterday, would the woman (Mother Sim) in the view play the piano today between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If the woman (Mother Sim) in the view had washed the dishes yesterday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would not play the piano today between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would play the piano today between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would play the piano today between 6pm and 10pm"
+     }
+    }
+   ]
+  },
+  {
+   "task_id": 1259,
+   "pos": 18,
+   "date": "2025-11-03",
+   "dow": "Mon",
+   "color": "gray",
+   "activity": null,
+   "kind": "normal",
+   "anchor": null,
+   "stop_video": "03:22",
+   "stop_game": "08:12",
+   "screenshot": "assets/shots250/pos_18.jpg",
+   "hints": {
+    "none": "",
+    "abstract": "It is related to the day of the week.",
+    "explicit": "It is related to whether today is Saturday or Sunday."
+   },
+   "phase": 1,
+   "questions": [
+    {
+     "type": "direct",
+     "label": "Direct",
+     "binary": {
+      "q": "Will the woman (Mother Sim) in the view play the piano today between 3pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "No"
+     },
+     "choice": {
+      "q": "Which statement is more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view will play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) in the view will not play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view will not play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "counterfactual",
+     "label": "Counterfactual",
+     "binary": {
+      "q": "If today were Saturday or Sunday, would the woman (Mother Sim) in the view play the piano today between 3pm and 10pm?",
+      "options": [
+       "No",
+       "Yes"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If today were Saturday or Sunday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would not play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) in the view would play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "noise_counterfactual",
+     "label": "Noisy",
+     "binary": {
+      "q": "If the woman (Mother Sim) in the view had washed the dishes yesterday, would the woman (Mother Sim) in the view play the piano today between 3pm and 10pm?",
+      "options": [
+       "No",
+       "Yes"
+      ],
+      "answer": "No"
+     },
+     "choice": {
+      "q": "If the woman (Mother Sim) in the view had washed the dishes yesterday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) in the view would not play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would not play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "inverse_counterfactual",
+     "label": "Inverse",
+     "binary": {
+      "q": "If the woman (Mother Sim) in the view had played the piano today between 3pm and 10pm, would the statement \"it was Saturday or Sunday\" be likely to be true?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If the woman (Mother Sim) in the view had played the piano today between 3pm and 10pm, which statement would be more likely to be true?",
+      "options": [
+       "It was not Saturday or Sunday",
+       "It was Saturday or Sunday"
+      ],
+      "answer": "It was Saturday or Sunday"
+     }
+    }
+   ]
+  },
+  {
+   "task_id": 1281,
+   "pos": 18,
+   "date": "2025-11-03",
+   "dow": "Mon",
+   "color": "gray",
+   "activity": null,
+   "kind": "history",
+   "anchor": "evolution_description",
+   "stop_video": "03:22",
+   "stop_game": "08:12",
+   "screenshot": "assets/shots250/pos_18.jpg",
+   "hints": {
+    "none": "",
+    "abstract": "It is related to the day of the week.",
+    "explicit": "It had the same pattern every day."
+   },
+   "phase": 1,
+   "questions": [
+    {
+     "type": "counterfactual",
+     "label": "Counterfactual",
+     "binary": {
+      "q": "Back before the woman (Mother Sim) in the view sustained a wrist injury, would the woman (Mother Sim) in the view have played the piano that day between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Back before the woman (Mother Sim) in the view sustained a wrist injury, if today were any day of the week, would the woman (Mother Sim) in the view have played the piano that day between 6pm and 10pm?",
+      "options": [
+       "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would not have played the piano that day between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm"
+     }
+    },
+    {
+     "type": "noise_counterfactual",
+     "label": "Noisy",
+     "binary": {
+      "q": "Back before the woman (Mother Sim) in the view sustains a wrist injury, if the woman (Mother Sim) in the view had washed the dishes the day before, would the woman (Mother Sim) in the view have played the piano that day between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Back before the woman (Mother Sim) in the view sustained a wrist injury, if the woman (Mother Sim) in the view had washed the dishes the previous day, which statement would have been more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would not have played the piano that day between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm"
+     }
+    }
+   ]
+  },
+  {
+   "task_id": 1282,
+   "pos": 18,
+   "date": "2025-11-03",
+   "dow": "Mon",
+   "color": "gray",
+   "activity": null,
+   "kind": "history",
+   "anchor": "vague_days",
+   "stop_video": "03:22",
+   "stop_game": "08:12",
+   "screenshot": "assets/shots250/pos_18.jpg",
+   "hints": {
+    "none": "",
+    "abstract": "It is related to the day of the week.",
+    "explicit": "It had the same pattern every day."
+   },
+   "phase": 1,
+   "questions": [
+    {
+     "type": "counterfactual",
+     "label": "Counterfactual",
+     "binary": {
+      "q": "Several weeks before, if that day were Monday or Sunday, would the woman (Mother Sim) in the view have played the piano that day between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Several weeks before, if it were Monday, Thursday, Friday or Sunday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would play the piano that day between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would not play the piano that day between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would play the piano that day between 6pm and 10pm"
+     }
+    },
+    {
+     "type": "noise_counterfactual",
+     "label": "Noisy",
+     "binary": {
+      "q": "Several weeks before, if the woman (Mother Sim) in the view had washed the dishes the day before, would the woman (Mother Sim) in the view have played the piano that day between 6pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Several weeks before, if the woman (Mother Sim) in the view had washed the dishes the previous day, which statement would have been more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm",
+       "The woman (Mother Sim) in the view would not have played the piano that day between 6pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) in the view would have played the piano that day between 6pm and 10pm"
+     }
+    }
+   ]
+  },
+  {
+   "task_id": 1258,
+   "pos": 24,
+   "date": "2025-11-09",
+   "dow": "Sun",
+   "color": "green",
+   "activity": "piano_playing",
+   "kind": "normal",
+   "anchor": null,
+   "stop_video": "07:58",
+   "stop_game": "11:13",
+   "screenshot": "assets/shots250/pos_24.jpg",
+   "hints": {
+    "none": "",
+    "abstract": "It is related to the day of the week.",
+    "explicit": "It is related to whether today is Saturday or Sunday."
+   },
+   "phase": 1,
+   "questions": [
+    {
+     "type": "direct",
+     "label": "Direct",
+     "binary": {
+      "q": "Will the woman (Mother Sim) on the right play the piano today between 3pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "Which statement is more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) on the right will play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) on the right will not play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) on the right will play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "counterfactual",
+     "label": "Counterfactual",
+     "binary": {
+      "q": "If today were not Saturday or Sunday, would the woman (Mother Sim) on the right play the piano today between 3pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "No"
+     },
+     "choice": {
+      "q": "If today were not Saturday or Sunday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) on the right would play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) on the right would not play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) on the right would not play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "noise_counterfactual",
+     "label": "Noisy",
+     "binary": {
+      "q": "If the woman (Mother Sim) on the right had washed the dishes yesterday, would the woman (Mother Sim) on the right play the piano today between 3pm and 10pm?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If the woman (Mother Sim) on the right had washed the dishes yesterday, which statement would be more likely to be true?",
+      "options": [
+       "The woman (Mother Sim) on the right would not play the piano today between 3pm and 10pm",
+       "The woman (Mother Sim) on the right would play the piano today between 3pm and 10pm"
+      ],
+      "answer": "The woman (Mother Sim) on the right would play the piano today between 3pm and 10pm"
+     }
+    },
+    {
+     "type": "inverse_counterfactual",
+     "label": "Inverse",
+     "binary": {
+      "q": "If the woman (Mother Sim) on the right had not played the piano today between 3pm and 10pm, would the statement \"it was not Saturday or Sunday\" be likely to be true?",
+      "options": [
+       "No",
+       "Yes"
+      ],
+      "answer": "Yes"
+     },
+     "choice": {
+      "q": "If the woman (Mother Sim) on the right had not played the piano today between 3pm and 10pm, which statement would be more likely to be true?",
+      "options": [
+       "It was not Saturday or Sunday",
+       "It was Saturday or Sunday"
+      ],
+      "answer": "It was not Saturday or Sunday"
+     }
+    }
+   ]
+  }
+ ],
+ "legend": {
+  "blue": "piano — every day (original rule)",
+  "purple": "wrist injury — the rule changes",
+  "green": "piano — weekends only (new rule)",
+  "gray": "no piano"
+ }
+}

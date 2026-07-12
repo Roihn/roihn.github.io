@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership</title>
+  <meta name="description" content="SimLife is a scalable platform for simulating long-term household life, and SimLife-BP is a benchmark for long-context behavioral pattern understanding. Explore a full simulated day with an interactive, per-character schedule synced to the video.">
+  <meta name="keywords" content="SimLife, long-context, pattern understanding, benchmark, The Sims 4, embodied agents">
+  <meta property="og:title" content="SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership">
+  <meta property="og:description" content="A platform for long-term everyday life and a benchmark for long-context pattern understanding. Explore a full 24-minute simulated day, action by action.">
+  <meta property="og:image" content="assets/poster.jpg">
+  <meta property="og:type" content="website">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="css/nerfies.css">
+  <link rel="stylesheet" href="css/schedule.css">
+  <link rel="stylesheet" href="css/episode.css">
+</head>
+<body>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">
+            <span class="dnerf">SimLife</span>: Pattern Understanding for<br>Long-Horizon Human-Agent Partnership
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><a href="https://roihn.github.io">Run Peng</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://zinnia11.github.io/">Zinnia Nie</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://jingding-ai.github.io/">Jing Ding</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://yinpeidai.github.io/">Yinpei Dai</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://594zyc.github.io/">Yichi Zhang</a><sup>2</sup>,</span>
+            <br>
+            <span class="author-block"><a href="https://wuzengqing001225.github.io/">Zengqing Wu</a><sup>3</sup>,</span>
+            <span class="author-block">Yao Fu<sup>1</sup>,</span>
+            <span class="author-block"><a href="https://mars-tin.github.io/">Ziqiao Ma</a><sup>1</sup>,</span>
+            <span class="author-block"><a href="https://jiayuanm.com/">Jiayuan Mao</a><sup>4,5</sup>,</span>
+            <span class="author-block"><a href="https://web.eecs.umich.edu/~chaijy/">Joyce Chai</a><sup>1</sup></span>
+          </div>
+          <div class="is-size-6 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Michigan,</span>
+            <span class="author-block"><sup>2</sup>ByteDance,</span>
+            <span class="author-block"><sup>3</sup>Osaka University,</span>
+            <span class="author-block"><sup>4</sup>Amazon,</span>
+            <span class="author-block"><sup>5</sup>University of Pennsylvania</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block" data-block="paper">
+                <a data-link="paper" href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block" data-block="arxiv">
+                <a data-link="arxiv" href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span><span>arXiv</span>
+                </a>
+              </span>
+              <span class="link-block" data-block="code">
+                <a data-link="code" href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fab fa-github"></i></span><span>Code</span>
+                </a>
+              </span>
+              <span class="link-block" data-block="dataset">
+                <a data-link="dataset" href="#" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-database"></i></span><span>Dataset</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABSTRACT ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Understanding humans over long horizons requires agents to infer not only what people
+            need in the moment, but also <em>how</em> routines form, <em>why</em> they repeat, and
+            <em>when</em> they change. We introduce <span class="dnerf">SimLife</span>, a scalable
+            platform for simulating long-term household life with rich visual observations,
+            ground-truth action logs, and synthetic dialogues with audio. Built on
+            <span class="dnerf">SimLife</span>, <span class="dnerf">SimLife-BP</span> evaluates
+            long-context pattern understanding: the ability to infer latent behavioral rules from
+            weeks or months of everyday observations. The benchmark contains 106 episodes averaging
+            15.49 hours and 38.57 in-game days, and 1,439 question-answer pairs. Each task probes
+            direct, counterfactual, noisy, and inverse reasoning under different levels of rule
+            hints. Evaluating frontier models and architectures, we find that current models often
+            achieve surface-level prediction without comprehensive rule understanding, rely on
+            frequency-based heuristics rather than if-then reasoning over evidence, and struggle to
+            adapt when behavioral patterns change. These findings suggest that long-context pattern
+            understanding remains a major bottleneck for future embodied agents, while
+            <span class="dnerf">SimLife</span> opens a broader space for studying memory,
+            personalization, adaptation, and long-horizon planning in everyday human-AI interaction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== INTERACTIVE DAY ===================== -->
+<section class="section demo-section">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">One day, end to end</h2>
+        <div class="content has-text-justified">
+          <p>
+            A single <span class="dnerf">SimLife</span> video spans a full household day. Below is
+            one <b>24-minute</b> recording of <b>simulated day&nbsp;#<span id="day-id">1457</span></b>
+            &#8212; four Sims and a household robot, from 6&nbsp;AM to 10&nbsp;PM. You can read across
+            everyone at any moment. <b>Click any block to jump the video there</b>; as it plays, the
+            in-game clock and every character&#8217;s current action update below.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- day picker (temporary: comparing candidate days) -->
+    <div class="day-picker-bar">
+      <label for="day-picker">Simulated day</label>
+      <select id="day-picker"></select>
+      <span class="dpb-note">comparing candidates &#8212; pick the best one</span>
+    </div>
+
+    <!-- video -->
+    <div class="video-stage">
+      <div class="video-frame">
+        <video id="player" controls playsinline preload="metadata" poster="assets/poster.jpg">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="video-caption">
+        <span class="vc-clock" id="game-clock">06:00<small>in-game</small></span>
+        <a class="vc-full" data-link="fullvideo" href="#" title="Original 1080p recording">&#8595; Full 1080p original (~1.2&nbsp;GB)</a>
+      </div>
+      <div class="now-strip" id="now-strip"></div>
+    </div>
+
+    <p class="board-hint">Five characters share one 6&nbsp;AM&#8211;10&nbsp;PM axis, so blocks line up in time. Repeated actions are merged (<b>&times;N</b>). <b>Click any block to jump the video there.</b></p>
+
+    <!-- 5-column per-character schedule -->
+    <div id="schedule"><div class="loading">Loading the day&#8230;</div></div>
+    <p class="schedule-note">
+      We tried our best to augment and improve the log quality, while you may still notice that
+      some of them are not perfectly accurate.
+    </p>
+  </div>
+</section>
+
+<!-- ===================== EPISODE 1: static rule (vc223) ===================== -->
+<section id="episode" class="section episode">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Inside an Episode - Pattern Understanding</h2>
+        <div class="content has-text-justified">
+          <p>
+            Each <span class="dnerf">SimLife-BP</span> episode is a long chain of days governed by a
+            <b>hidden behavioral rule</b>. Every day is colour-coded by its <b>day-condition set</b>,
+            and every task is a group of question types across three hint levels. The episode below
+            holds <b>one fixed rule</b> for all 30 days: the model must infer it purely from what it
+            observes.
+          </p>
+        </div>
+        <div class="ep-rule"></div>
+        <div class="ep-legend"></div>
+      </div>
+    </div>
+    <div class="episode-root" data-episode="data/episode_223.json"></div>
+  </div>
+</section>
+
+<!-- ===================== EPISODE 2: dynamic rule (vc250) ===================== -->
+<section id="episode-dynamic" class="section episode episode-alt">
+  <div class="container is-max-widescreen">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">A Harder Episode - When the Pattern Changes</h2>
+        <div class="content has-text-justified">
+          <p>
+            Real routines do not stay fixed. In this episode <b>two rules</b> govern the month, and an
+            <b>evolution event</b> in the middle switches from one to the other. The catch: the event is
+            <b>never shown</b> &#8212; it is revealed <b>only in dialogue</b>. Afterwards the target
+            activity sometimes happens <b>off-screen</b> too, mentioned only in conversation.
+          </p>
+          <p>
+            On those two days the clip is captioned with the <b>transcript</b> (scroll it) and a
+            <b>Hear it</b> button plays the real audio. Tasks anchored to the past are marked
+            <b>History</b> &#8212; and history tasks never ask a direct prediction.
+          </p>
+        </div>
+        <div class="ep-rule"></div>
+        <div class="ep-legend"></div>
+      </div>
+    </div>
+    <div class="episode-root" data-episode="data/episode_250.json"></div>
+  </div>
+</section>
+
+<!-- ===================== BENCHMARK ===================== -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">What the benchmark measures</h2>
+        <div class="content has-text-justified">
+          <p>
+            <span class="dnerf">SimLife-BP</span> asks whether a model can infer the <em>latent
+            rules</em> behind everyday behavior &#8212; not just recall what happened. Two axes
+            structure every task.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column">
+        <div class="content">
+          <h3 class="title is-5">Four question types</h3>
+          <ul>
+            <li><b>Direct</b> &#8212; predict behavior from the inferred rule.</li>
+            <li><b>Counterfactual</b> &#8212; reason about altered conditions.</li>
+            <li><b>Noisy</b> &#8212; hold up under distracting evidence.</li>
+            <li><b>Inverse</b> &#8212; run the rule backwards.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h3 class="title is-5">Three hint levels</h3>
+          <ul>
+            <li><b>Explicit</b> &#8212; the relevant condition is given.</li>
+            <li><b>Abstract</b> &#8212; only the condition <i>type</i> is given.</li>
+            <li><b>None</b> &#8212; the rule must be discovered from scratch.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+        <div class="content">
+          <h3 class="title is-5">Why it is hard</h3>
+          <p>
+            Evidence is dispersed across weeks; a rule like <i>&#8220;coffee on weekdays, or after a
+            late night&#8221;</i> links seemingly unrelated events. Models must integrate scattered
+            cues, rule out partial explanations, and adapt when patterns shift.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== BIBTEX ===================== -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code id="bibtex">@misc{peng2026simlife,
+  title     = {SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership},
+  author    = {Peng, Run and Nie, Zinnia and Ding, Jing and Dai, Yinpei and Zhang, Yichi and
+               Wu, Zengqing and Fu, Yao and Ma, Ziqiao and Mao, Jiayuan and Chai, Joyce},
+  year      = {2026}
+}</code></pre>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" data-link="paper" href="#"><i class="fas fa-file-pdf"></i></a>
+      <a class="icon-link" data-link="code" href="#"><i class="fab fa-github"></i></a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            Built on <span class="dnerf">The Sims&nbsp;4</span>. Website template borrowed from
+            <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, used under a
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/demo.js"></script>
+<script src="js/episode.js"></script>
+</body>
+</html>

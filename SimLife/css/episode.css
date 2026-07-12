@@ -1,0 +1,181 @@
+/* ============================================================
+   "Inside one episode" — scrollable day strip + task explorer
+   ============================================================ */
+.episode { background:#faf8f4; }
+.ep-rule {
+  max-width:760px; margin:0 auto 1.4rem; padding:14px 18px; border-radius:8px;
+  background:#fff; border:1px solid #ece6db; box-shadow:0 1px 2px rgba(0,0,0,.04);
+  font-family:'Noto Sans',sans-serif; color:#3a352c; text-align:center;
+}
+.ep-rule b { color:#b3560c; }
+.ep-legend { display:flex; flex-wrap:wrap; gap:10px 16px; justify-content:center; margin:0 auto .6rem; font-family:'Noto Sans',sans-serif; font-size:.85rem; }
+.ep-legend .lg { display:inline-flex; align-items:center; gap:7px; color:#444; }
+.ep-legend .sw { width:22px; height:12px; border-radius:4px; border:1.5px solid; }
+
+.c-orange { --stroke:#e69138; --fill:#fce5cd; }
+.c-blue   { --stroke:#3b82c4; --fill:#d6e6f5; }
+.c-green  { --stroke:#4a9d5b; --fill:#d9ead3; }
+.c-gray   { --stroke:#9aa0a6; --fill:#eceef0; }
+.c-purple { --stroke:#7c4dbe; --fill:#e7dcf7; }
+.sw.c-orange,.sw.c-blue,.sw.c-green,.sw.c-gray,.sw.c-purple { background:var(--fill); border-color:var(--stroke); }
+
+/* alternate section tint so the two episodes read as separate */
+.episode-alt { background:#f6f2ea; }
+.ep-evo { color:#7c4dbe; font-weight:600; }
+.ep-loading { padding:50px; text-align:center; color:#aaa; font-family:'IBM Plex Mono',monospace; font-size:.85rem; }
+
+/* ---- scrollable day strip ---- */
+.ep-panel {
+  position:relative; display:flex; gap:8px; align-items:stretch;
+  height:356px; overflow-x:auto; overflow-y:hidden;
+  padding:3px 10px 3px; border:1px solid #ece6db; border-radius:10px; background:#fff;
+  box-shadow:0 1px 2px rgba(0,0,0,.03);
+  scrollbar-width:thin; scrollbar-color:#cbbfa8 transparent;
+  scroll-behavior:smooth; overscroll-behavior-x:contain;
+}
+/* good-looking scrollbar */
+.ep-panel::-webkit-scrollbar { height:9px; }
+.ep-panel::-webkit-scrollbar-track { background:#f4f0e8; border-radius:6px; margin:0 4px; }
+.ep-panel::-webkit-scrollbar-thumb {
+  background:linear-gradient(90deg,#dccfb6,#c79a5e); border-radius:6px;
+  border:2px solid #fff; background-clip:padding-box; transition:background .2s;
+}
+.ep-panel::-webkit-scrollbar-thumb:hover { background:linear-gradient(90deg,#c79a5e,#b3560c); border:2px solid #fff; background-clip:padding-box; }
+
+.ep-track { position:relative; display:flex; flex-direction:column; height:100%; min-width:max-content; }
+.ep-cols { position:relative; flex:1 1 auto; min-height:0; display:flex; gap:8px; align-items:stretch; }
+
+/* ---- "all wrong hypotheses eliminated" divider ---- */
+.ep-elims { position:absolute; inset:0; pointer-events:none; z-index:3; }
+.ep-day.pre-elim { margin-right:26px; }   /* 26 + the 8px flex gap = 34px for the rule */
+.ep-elim { position:absolute; top:0; bottom:0; width:0; border-left:2px dashed #b03a2e; }
+.ep-elim .lb {
+  position:absolute; top:50%; left:0; transform:translate(-50%,-50%) rotate(180deg);
+  writing-mode:vertical-rl; white-space:nowrap;
+  background:#fff; padding:6px 2px; border-radius:3px;
+  font-family:'Noto Sans',sans-serif; font-size:.58rem; font-weight:700;
+  letter-spacing:.02em; color:#b03a2e; text-transform:uppercase;
+}
+
+/* thin horizontal bracket marking a rule period */
+.ep-brackets { position:relative; flex:none; height:16px; margin-bottom:1px; }
+.ep-bracket { position:absolute; bottom:5px; height:6px;   /* 5px+1px clear of the day blocks */
+  border-top:2px solid var(--stroke); border-left:2px solid var(--stroke); border-right:2px solid var(--stroke);
+  border-radius:3px 3px 0 0; }
+.ep-bracket .lb { position:absolute; top:-6px; left:50%; transform:translateX(-50%); white-space:nowrap;
+  background:#fff; padding:0 9px; line-height:1; font-family:'Noto Sans',sans-serif; font-size:.66rem; font-weight:700; color:#3a352c; }
+
+.ep-taskband { position:relative; }
+.ep-task-brackets { position:relative; height:16px; margin-bottom:2px; }
+.episode-alt .ep-task-brackets .lb { background:#f6f2ea; }
+
+.ep-day { flex:0 0 auto; display:flex; flex-direction:column; min-width:0; }
+.ep-day.has-gif { width:250px; }
+.ep-day.no-gif  { width:184px; }
+.ep-day.is-dialogue { width:280px; }
+.ep-panel.has-dialogue { height:372px; }
+.ep-day.is-evolution .ep-datebox { border-style:dashed; border-width:2px; }
+.ep-day.focused .ep-datebox { box-shadow:0 0 0 2px var(--stroke), 0 6px 16px -8px rgba(0,0,0,.45); }
+
+/* small date block on top */
+.ep-datebox { flex:none; height:30px; display:flex; flex-direction:row; align-items:center; justify-content:center;
+  gap:6px; background:var(--fill); border:1.5px solid var(--stroke); border-radius:5px; transition:box-shadow .25s; }
+.ep-datebox .dw { font-family:'IBM Plex Mono',monospace; font-size:.66rem; color:#5a5a5a; opacity:.85; line-height:1; }
+.ep-datebox .dd { font-family:'Google Sans',sans-serif; font-weight:700; font-size:.9rem; color:#2f2f2f; line-height:1; }
+
+/* content below */
+.ep-body { flex:1 1 auto; min-height:0; display:flex; flex-direction:column; gap:5px; padding-top:7px; }
+.ep-acts { flex:1 1 auto; min-height:0; display:flex; flex-direction:column; }
+.ep-dots { flex:none; text-align:center; color:#8f8779; font-size:1.35rem; line-height:.62; padding:3px 0; }
+.ep-rows { flex:1 1 auto; min-height:0; overflow:hidden; display:flex; flex-direction:column; gap:5px; padding:4px 0; }
+/* the last activity row is a partial crop — fade it out instead of slicing it in half */
+.ep-day.no-gif .ep-rows {
+  -webkit-mask-image:linear-gradient(to bottom, #000 calc(100% - 52px), rgba(0,0,0,0) 100%);
+          mask-image:linear-gradient(to bottom, #000 calc(100% - 52px), rgba(0,0,0,0) 100%);
+}
+
+.ep-actrow { display:flex; align-items:baseline; gap:8px; background:#f7f5f0; border:1.5px solid #e3dbcb;
+  border-radius:5px; padding:4px 9px; flex:none; }
+.ep-actrow .at { font-family:'IBM Plex Mono',monospace; font-size:.72rem; color:#8a7f6a; flex:none; }
+.ep-actrow .an { font-family:'Noto Sans',sans-serif; font-size:.8rem; font-weight:600; color:#3a352c;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+/* the GIF (always playing) */
+.ep-gif { position:relative; flex:none; border-radius:6px; overflow:hidden; border:2px solid var(--stroke);
+  box-shadow:0 4px 14px -8px rgba(0,0,0,.4); }
+.ep-gif video { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; background:#111; }
+.ep-gcap { display:flex; align-items:baseline; justify-content:space-between; gap:8px; padding:7px 11px; background:var(--fill); }
+.ep-gcap b { font-family:'Noto Sans',sans-serif; font-size:1rem; font-weight:700; color:#26221b; }
+.ep-gcap .tm { font-family:'IBM Plex Mono',monospace; font-size:.85rem; font-weight:600; color:#26221b; }
+
+/* ---- dialogue day: clip + transcript caption + audio ---- */
+.ep-gif.is-dialogue .ep-dlg { background:var(--fill); padding:5px 8px 6px; }
+.ep-dlg-head { display:flex; align-items:center; justify-content:space-between; gap:6px; }
+.ep-dlg-head .lbl { font-family:'Noto Sans',sans-serif; font-size:.7rem; font-weight:700; color:#26221b;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.ep-audio { flex:none; display:inline-flex; align-items:center; gap:5px; cursor:pointer;
+  border:1.5px solid var(--stroke); background:#fff; border-radius:4px; padding:2px 8px;
+  font-family:'Google Sans',sans-serif; font-size:.63rem; font-weight:700; color:#3a352c; transition:.15s; }
+.ep-audio:hover { background:var(--fill); }
+.ep-audio.playing { background:var(--stroke); color:#fff; border-color:var(--stroke); }
+.ep-audio .ic { font-size:.6rem; line-height:1; }
+.ep-dlg-lines { margin-top:5px; display:flex; flex-direction:column; gap:3px;
+  max-height:58px; overflow-y:auto; padding-right:5px;
+  scrollbar-width:thin; scrollbar-color:var(--stroke) transparent; }
+.ep-dlg-lines::-webkit-scrollbar { width:6px; }
+.ep-dlg-lines::-webkit-scrollbar-track { background:transparent; }
+.ep-dlg-lines::-webkit-scrollbar-thumb { background:var(--stroke); border-radius:6px; opacity:.7; }
+.ep-dlg-lines .ln { font-family:'Noto Sans',sans-serif; font-size:.63rem; line-height:1.32; color:#413b31; }
+.ep-dlg-lines .ln b { color:#26221b; font-weight:700; }
+
+/* ---- dotted right-angle connectors ---- */
+.ep-connect-wrap { position:relative; width:100%; height:38px; }
+.ep-connect { display:block; width:100%; height:38px; overflow:visible; }
+
+/* ---- task explorer ---- */
+.ep-task-tabs { display:flex; flex-wrap:wrap; gap:8px; justify-content:center; margin-bottom:1rem; }
+.ep-tab { border:2px solid var(--stroke); background:#fff; color:#444; border-radius:6px; padding:8px 16px;
+  font-family:'Google Sans',sans-serif; font-weight:600; font-size:.82rem; cursor:pointer; transition:.18s;
+  display:flex; flex-direction:row; align-items:center; gap:8px; line-height:1.2; white-space:nowrap; }
+.ep-tab .tt-sep { color:#c3bcae; }
+.ep-tab .tt-act { font-weight:400; color:#6f6857; }
+.ep-tab .tt-time { display:none; align-items:center; gap:5px; margin-left:2px; padding-left:9px;
+  border-left:1px dashed var(--stroke); font-family:'IBM Plex Mono',monospace; font-weight:600; font-size:.74rem; color:#444; }
+.ep-tab.active { background:var(--fill); box-shadow:0 2px 8px rgba(0,0,0,.08); }
+.ep-tab.active .tt-time { display:inline-flex; }
+
+.ep-task-body { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); gap:20px; align-items:start;
+  background:#fff; border:1px solid #ece6db; border-radius:9px; padding:18px; }
+.ep-shot img { width:100%; border-radius:6px; border:1px solid #e0dccf; display:block; background:#111; }
+.ep-shot .cap { font-family:'IBM Plex Mono',monospace; font-size:.72rem; color:#666; margin-top:8px; text-align:center; }
+.ep-controls { display:flex; flex-direction:column; gap:11px; }
+.ep-toggle-row { display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.ep-toggle-row .lbl { font-family:'IBM Plex Mono',monospace; font-size:.66rem; text-transform:uppercase; letter-spacing:.08em; color:#999; width:64px; }
+.ep-seg { display:inline-flex; flex-wrap:wrap; border:1px solid #d8d2c6; border-radius:5px; overflow:hidden; }
+.ep-seg button { border:0; background:#fff; color:#555; font-family:'Noto Sans',sans-serif; font-size:.74rem; font-weight:600;
+  padding:5px 10px; cursor:pointer; border-right:1px solid #ece7dc; transition:.12s; }
+.ep-seg button:last-child { border-right:0; }
+.ep-seg button.on { background:#3a352c; color:#fff; }
+.ep-seg.hint button.on { background:#b3560c; }
+.ep-seg button.na, .ep-seg button:disabled { opacity:.32; cursor:not-allowed; background:#f6f4f0; color:#9a9384; }
+.ep-seg button.na.on { background:#cfc8ba; color:#fff; }
+.ep-na-msg { color:#8f8779; font-style:italic; font-size:1rem; }
+.ep-na-msg b { color:#7a3f07; font-style:normal; }
+.ep-note { font-family:'Noto Sans',sans-serif; font-size:.72rem; font-style:italic; color:#9a9384; margin:-4px 0 2px 70px; }
+
+.ep-qcard { background:#faf8f4; border:1px solid #ece6db; border-radius:8px; padding:16px 18px; margin-top:4px; }
+.ep-qtype { font-family:'IBM Plex Mono',monospace; font-size:.64rem; text-transform:uppercase; letter-spacing:.1em; color:#b3560c; margin-bottom:8px; }
+.ep-qbody { font-family:'Fraunces','Noto Sans',serif; font-size:1.12rem; line-height:1.45; color:#26221b; }
+.ep-hintpar { color:#6a5a3a; }
+.ep-hintpar .htext { border-radius:4px; padding:0 2px; }
+.ep-hintpar.flash .htext { animation:hintflash 1.2s ease; }
+@keyframes hintflash { 0%{ background:#ffd591; box-shadow:0 0 0 4px #ffd591; } 100%{ background:transparent; box-shadow:0 0 0 0 transparent; } }
+
+.ep-options { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+.ep-opt { display:inline-flex; align-items:center; gap:6px; border:1px solid #d8d2c6; background:#fff; border-radius:6px;
+  padding:5px 14px; font-family:'Noto Sans',sans-serif; font-size:.82rem; color:#555; }
+.ep-opt.correct { border-color:#2f9e44; background:#e9f7ee; color:#1a6b2e; font-weight:700; }
+.ep-opt .chk { display:inline-flex; align-items:center; justify-content:center; width:17px; height:17px; border-radius:50%;
+  background:#2f9e44; color:#fff; font-size:.72rem; }
+
+@media (max-width:820px){ .ep-task-body{ grid-template-columns:1fr; } .ep-day.has-gif{ width:230px; } .ep-panel{ height:320px; } }

@@ -1,0 +1,116 @@
+/* ============================================================
+   SimLife interactive "one day" — a calendar: 5 character columns
+   on a shared time axis. Styled to sit inside the Nerfies/Bulma page.
+   ============================================================ */
+
+.demo-section { padding-top: 1rem; }
+
+/* --- temporary day picker --- */
+.day-picker-bar { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:10px; margin:0 auto 1rem; font-family:'Noto Sans', sans-serif; }
+.day-picker-bar label { font-weight:600; color:#333; font-size:.9rem; }
+.day-picker-bar select { font-family:inherit; font-size:.92rem; font-weight:600; padding:6px 12px; border:1px solid #cfcfcf; border-radius:8px; background:#fff; color:#222; cursor:pointer; }
+.dpb-note { color:#999; font-size:.8rem; font-style:italic; }
+
+/* --- video --- */
+.video-stage { max-width: 900px; margin: 0 auto 1.1rem; }
+.video-frame {
+  position: relative; border-radius: 12px; overflow: hidden;
+  background: #000; box-shadow: 0 10px 30px -12px rgba(0,0,0,.5);
+}
+.video-frame video { display: block; width: 100%; aspect-ratio: 16/9; background:#000; }
+.video-note {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 24px; color: #eee; font-size: .95rem; background: #111; line-height:1.6;
+}
+.video-note code { color: #ffd9a8; }
+
+.video-caption {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  flex-wrap: wrap; margin-top: .55rem; font-family: 'Noto Sans', sans-serif;
+}
+.vc-clock { font-family: 'Google Sans', sans-serif; font-weight: 700; font-size: 1.15rem; color:#363636; }
+.vc-clock small { color:#888; font-weight:400; font-size:.68rem; text-transform:uppercase; letter-spacing:.06em; margin-left:5px;}
+.vc-full { font-size:.82rem; color:#3273dc; text-decoration:none; }
+.vc-full:hover { text-decoration:underline; }
+
+/* --- "now" strip: current action per character --- */
+.now-strip { display:flex; flex-wrap:wrap; gap:6px; justify-content:center; margin:.15rem 0 .2rem; }
+.np-card {
+  display:inline-flex; align-items:center; gap:6px; max-width:230px;
+  padding:3px 11px; border-radius:999px; background:#f6f6f7; border:1px solid #ededed;
+  font-family:'Noto Sans', sans-serif; font-size:.76rem;
+}
+.np-dotc { width:8px; height:8px; border-radius:50%; background:var(--c,#888); flex:none; }
+.np-nm { font-family:'Google Sans', sans-serif; font-weight:700; color:#3a3a3a; }
+.np-act { color:#555; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.np-act.idle { color:#bbb; font-style:italic; }
+
+.board-hint { text-align:center; color:#777; font-size:.85rem; margin: .7rem 0 .9rem; }
+.board-hint b { color:#363636; }
+
+/* --- calendar --- */
+.cal { max-width: 1180px; margin: 0 auto; border: 1px solid #e4e4e4; border-radius: 12px; overflow: hidden; background:#fff; }
+.cal-scroll { overflow:auto; max-height: 44vh; }
+
+.cal-head, .cal-body { display:grid; min-width: 810px; }
+.cal-head { position: sticky; top:0; z-index:20; }   /* must outrank .cal-block.now */
+.cal-corner { background:#fafafa; border-right:1px solid #eee; border-bottom:1px solid #e6e6e6; }
+.cal-chhead {
+  display:flex; align-items:center; gap:11px; padding:5px 10px;
+  background:var(--fill,#eee); color:#2f2f2f; border-bottom:3px solid var(--c,#888);
+  font-family:'Google Sans', sans-serif; font-weight:700; font-size:.8rem;
+}
+.cal-chhead .cc-icon {
+  height:28px; width:auto; flex:none; margin:0; align-self:center;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.28));
+}
+.cal-chhead .cc-name { min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.cal-chhead .cc-count { margin-left:auto; font-weight:400; font-size:.7rem; color:#666; }
+
+.cal-gutter { position:relative; background:#fafafa; border-right:1px solid #eee; }
+/* hour label sits at the TOP of each hour line (label's top edge = the line) */
+.cal-hour {
+  position:absolute; left:0; right:0; padding:2px 6px 0 0; text-align:right;
+  border-top:1px solid #d8d8d8;
+  font-family:'IBM Plex Mono', monospace; font-size:.85rem; font-weight:400; color:#3a3a3a; white-space:nowrap;
+}
+.cal-col { position:relative; border-right:1px solid #f0f0f0; }
+.cal-col:last-child { border-right:0; }
+/* dashed line marking where each hour starts, aligned across columns */
+.cal-line { position:absolute; left:0; right:0; border-top:1px dashed #e4e6e9; pointer-events:none; }
+
+.cal-block {
+  position:absolute; left:3px; right:3px;
+  border:0; border-left:3px solid var(--c,#888); border-radius:4px; overflow:hidden;
+  padding:0; background: color-mix(in oklab, var(--fill,#eee) 62%, #fff);
+  text-align:left; cursor:pointer; transition: filter .12s, box-shadow .12s;
+}
+.cal-block:hover { filter:brightness(.96); }
+.cal-block.no-seek { cursor:default; opacity:.6; }
+.cal-block.now { outline:2px solid #f39423; outline-offset:-1px; z-index:2; box-shadow:0 2px 8px rgba(243,148,35,.35); filter:none; }
+
+/* content top-aligned inside the block */
+.b-inner { display:flex; flex-direction:column; justify-content:flex-start; height:100%; padding:1px 5px; overflow:hidden; line-height:1.12; font-family:'Noto Sans', sans-serif; }
+.b-line { display:flex; align-items:center; gap:3px; }
+.b-emoji { flex:none; font-size:.7rem; }
+.b-name { flex:1; min-width:0; font-size:.66rem; color:#333; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.cal-block.meal .b-name { font-style:italic; }
+.b-x { flex:none; font-size:.58rem; font-weight:700; color:var(--c,#666); }
+.b-vis { flex:none; width:4px; height:11px; margin-left:3px; border-radius:2px; background:#e0e0e0; overflow:hidden; display:inline-flex; align-items:flex-end; }
+.b-vis > span { display:block; width:100%; background:linear-gradient(#8fdca0,#46b25c); }
+.b-time { font-family:'IBM Plex Mono', monospace; font-size:.62rem; color:#6f6f6f; margin-top:1px; }
+.cal-block.compact .b-time { display:none; }
+
+.loading { padding: 40px; text-align:center; color:#999; font-family:'IBM Plex Mono', monospace; }
+
+/* footnote attached under the schedule table */
+.schedule-note {
+  max-width:1180px; margin:7px auto 0; padding:0 2px;
+  font-family:'Noto Sans', sans-serif; font-size:.72rem; font-style:italic;
+  line-height:1.45; color:#8f8779; text-align:left;
+}
+
+@media (max-width: 768px) {
+  .cal-scroll { max-height: 58vh; }
+  .np-card { font-size:.72rem; }
+}
