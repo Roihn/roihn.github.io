@@ -1,8 +1,8 @@
 /* ============================================================
    SimLife demo config.
-   Picker shows two featured days (1457 + 1417). To add a day, list
-   its dayEntry(id) below, generate data/day_<id>.json via
-   _build/export_demo_day.py, and upload its 720p to HF demo/.
+   One featured day (1457). To feature another day: add dayEntry(id)
+   below, generate data/day_<id>.json via _build/export_demo_day.py,
+   upload its 720p to HF demo/, and restore a picker UI.
    ============================================================ */
 window.SIMLIFE_CONFIG = {
 
@@ -14,11 +14,11 @@ window.SIMLIFE_CONFIG = {
     dataset: ""    // TODO
   },
 
-  /* --- Candidate days. Each: data JSON + video URLs.
-     demo/full are the hosted (Hugging Face) URLs used in production;
+  /* --- Featured day(s). Each: data JSON + video URLs.
+     `demo` is the hosted (Hugging Face) 720p used in production;
      `local` is the staged 720p clip used for local preview. --- */
   days: [
-    dayEntry(1457), dayEntry(1417)
+    dayEntry(1457)
   ],
 
   /* --- Per-character header icons (transparent PNGs). --- */
@@ -33,13 +33,11 @@ window.SIMLIFE_CONFIG = {
 
 /* helper: build a day entry from its id (video unit = zero-padded id) */
 function dayEntry(id) {
-  var u = String(id).padStart(6, "0");
   return {
     id: id,
     label: "Day " + id,
     data: "data/day_" + id + ".json",
     local: "_build/staging/demo_day_" + id + "_720p.mp4",
-    demo:  "https://huggingface.co/datasets/Roihn/SimLife/resolve/main/demo/demo_day_" + id + "_720p.mp4",
-    full:  "https://huggingface.co/datasets/Roihn/SimLife/resolve/main/video_units/video_" + u + "/video.mp4"
+    demo:  "https://huggingface.co/datasets/Roihn/SimLife/resolve/main/demo/demo_day_" + id + "_720p.mp4"
   };
 }

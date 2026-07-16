@@ -6,6 +6,7 @@ _build/
 # Candidate-day data not shown in the picker (picker = 1457 + 1417).
 # Regenerate any of these via _build/export_demo_day.py if you re-add the day.
 data/day_1100.json
+data/day_1417.json
 data/day_1197.json
 data/day_1274.json
 data/day_1347.json

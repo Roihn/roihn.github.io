@@ -41,9 +41,9 @@
 
   function isPlaceholder(u){ return !u || u.indexOf("<HF_REPO>") !== -1; }
   function wireLinks(){
-    var links=CFG.links||{}, vid=CFG.video||{};
+    var links=CFG.links||{};
     document.querySelectorAll("[data-link]").forEach(function(el){
-      var key=el.dataset.link, url=key==="fullvideo"?vid.fullUrl:links[key];
+      var key=el.dataset.link, url=links[key];
       if(!isPlaceholder(url)){ el.href=url; el.target="_blank"; el.rel="noopener"; }
       else { var b=el.closest(".link-block"); if(b) b.style.display="none"; else el.style.display="none"; }
     });
@@ -242,12 +242,6 @@
     var src=dayVideoSrc(day);
     if(src){ player.src=src; if(player.load) player.load(); }
     else { var n=el("div","video-note"); n.innerHTML="Video for this day isn’t ready yet (still encoding) or not configured."; player.parentElement.appendChild(n); }
-    // per-day "Full 1080p original" download link (hidden until its HF URL is real)
-    var fl=document.querySelector('[data-link="fullvideo"]');
-    if(fl){
-      if(!isPlaceholder(day.full)){ fl.href=day.full; fl.target="_blank"; fl.rel="noopener"; fl.style.display=""; }
-      else fl.style.display="none";
-    }
     lastGame=null;
     if(gameClock) gameClock.innerHTML="06:00<small>in-game</small>";
     scheduleEl.innerHTML='<div class="loading">Loading day '+esc(day.id)+'&#8230;</div>';

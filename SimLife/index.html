@@ -133,13 +133,6 @@
       </div>
     </div>
 
-    <!-- day picker (temporary: comparing candidate days) -->
-    <div class="day-picker-bar">
-      <label for="day-picker">Simulated day</label>
-      <select id="day-picker"></select>
-      <span class="dpb-note">comparing candidates &#8212; pick the best one</span>
-    </div>
-
     <!-- video -->
     <div class="video-stage">
       <div class="video-frame">
@@ -149,7 +142,6 @@
       </div>
       <div class="video-caption">
         <span class="vc-clock" id="game-clock">06:00<small>in-game</small></span>
-        <a class="vc-full" data-link="fullvideo" href="#" title="Original 1080p recording">&#8595; Full 1080p original (~1.2&nbsp;GB)</a>
       </div>
       <div class="now-strip" id="now-strip"></div>
     </div>
@@ -160,7 +152,7 @@
     <div id="schedule"><div class="loading">Loading the day&#8230;</div></div>
     <p class="schedule-note">
       We tried our best to augment and improve the log quality, while you may still notice that
-      some of them are not perfectly accurate.
+      some of them are not perfectly accurate. The green bars on the right of blocks indicate the visibility of the actions. All green means the action is always visible from the beginning to the end.
     </p>
   </div>
 </section>
@@ -288,8 +280,14 @@
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content has-text-centered">
+          <p class="footer-disclaimer">
+            <span class="dnerf">SimLife</span> is an independent academic research project and is not
+            endorsed by or affiliated with Electronic Arts, Maxis, or their licensors.
+            The Sims and The Sims&nbsp;4 are trademarks of Electronic Arts Inc.
+            All videos, screenshots, and other data on this page are shown for demonstration purposes only.
+          </p>
           <p>
-            Built on <span class="dnerf">The Sims&nbsp;4</span>. Website template borrowed from
+            Website template borrowed from
             <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>, used under a
             <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> license.
           </p>

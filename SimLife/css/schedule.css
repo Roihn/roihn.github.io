@@ -114,3 +114,6 @@
   .cal-scroll { max-height: 58vh; }
   .np-card { font-size:.72rem; }
 }
+
+/* footer disclaimer (EA/Maxis + demo-usage) */
+.footer-disclaimer { font-size: .85rem; color: #8a8a8a; max-width: 720px; margin: 0 auto .9rem; }
