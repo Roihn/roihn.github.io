@@ -14,3 +14,6 @@ data/day_1347.json
 # byproducts
 *.pyc
 __pycache__/
+
+# Temporary paper PDF — not hosted in the repo (link points to arXiv when ready)
+assets/simlife_paper.pdf
