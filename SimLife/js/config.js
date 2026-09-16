@@ -2,7 +2,7 @@
    SimLife demo config.
    One featured day (1457). To feature another day: add dayEntry(id)
    below, generate data/day_<id>.json via _build/export_demo_day.py,
-   upload its 720p to HF demo/, and restore a picker UI.
+   upload its 720p to the HF SimLife-Demo repo, and restore a picker UI.
    ============================================================ */
 window.SIMLIFE_CONFIG = {
 
@@ -38,6 +38,6 @@ function dayEntry(id) {
     label: "Day " + id,
     data: "data/day_" + id + ".json",
     local: "_build/staging/demo_day_" + id + "_720p.mp4",
-    demo:  "https://huggingface.co/datasets/Roihn/SimLife/resolve/main/demo/demo_day_" + id + "_720p.mp4"
+    demo:  "https://huggingface.co/datasets/Roihn/SimLife-Demo/resolve/main/demo_day_" + id + "_720p.mp4"
   };
 }

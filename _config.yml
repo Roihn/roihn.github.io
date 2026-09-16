@@ -67,7 +67,6 @@ include:
   - files
   - _static
 exclude:
-  - SimLife            # temporarily hidden — delete this line to re-publish roihn.github.io/SimLife/
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
