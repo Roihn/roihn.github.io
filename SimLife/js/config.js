@@ -8,8 +8,8 @@ window.SIMLIFE_CONFIG = {
 
   /* --- Resource links (hero buttons). Leave "" to grey-out a button. --- */
   links: {
-    paper:   "",   // TODO: arXiv/PDF URL when ready
-    arxiv:   "",   // TODO
+    paper:   "https://arxiv.org/pdf/2609.19610",
+    arxiv:   "https://arxiv.org/abs/2609.19610",
     code:    "",   // TODO
     dataset: ""    // TODO
   },
