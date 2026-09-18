@@ -10,7 +10,7 @@ window.SIMLIFE_CONFIG = {
   links: {
     paper:   "https://arxiv.org/pdf/2609.19610",
     arxiv:   "https://arxiv.org/abs/2609.19610",
-    code:    "",   // TODO
+    code:    "https://github.com/Roihn/SimLife",
     dataset: ""    // TODO
   },
 
