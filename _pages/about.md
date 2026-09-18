@@ -35,6 +35,17 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">CoLM 2026 LSEI Workshop</div><img src='images/simlife.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SimLife: Pattern Understanding for Long-Horizon Human-Agent Partnership](https://arxiv.org/abs/2609.19610)
+
+**Run Peng**, Zinnia Nie, Jing Ding, Yinpei Dai, Yichi Zhang, Zengqing Wu, Yao Fu, Ziqiao Ma, Jiayuan Mao, Joyce Chai
+
+\[[**Project**](https://roihn.github.io/SimLife/)\] \[[**Paper**](https://arxiv.org/abs/2609.19610)\] \[[**Code**](https://github.com/Roihn/SimLife)\]
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">CoLM 2026</div><img src='images/einstein.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
