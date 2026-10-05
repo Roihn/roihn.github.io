@@ -17,12 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a second-year Ph.D. candidate in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
+Hi This is Run Peng 彭润. You can call me Run or Roihn. I am a third-year Ph.D. candidate in Computer Science and Engineering, advised by professor [Joyce Chai](https://web.eecs.umich.edu/~chaijy/). My primary research focus is to bridge the gap between humans and AI agents. 
 
 Agents need to be able to perceive, to reason, and to interact with the world and humans. I'm thrilled to explore agent behaviors, human behaviors, and human-AI interaction when humans are cosituated with the agents. From cognitive perspective, as we figure out the commonalities and distinctions between human and agent behaviors, I believe we can unlock new insights into the nature of understanding itself, ultimately guiding us toward the development of more general AI agents.
 
 
 # 🔥 News
+- *2026.10*: &nbsp;🎉 I will attend CoLM 2026 and present [Einstein Puzzles](https://arxiv.org/abs/2510.25595), and give an oral presentation of [SimLife](https://roihn.github.io/SimLife/) at the [LSEI Workshop](https://learning-situated-interaction.github.io/) (Oct 9, 2-3 pm). Let's do a coffee chat!
 - *2026.07*: &nbsp;🎉 "Communication and Verification in LLM Agents towards Collaboration under Information Asymmetry" is accepted at CoLM 2026! See you at San Francisco!
 - *2026.05*: &nbsp;🎉 "LLM-Based Social Simulations Require a Boundary" is accepted at ICML 2026!
 - *2026.04*: &nbsp;😊 I will be the student coordinator for this year's [NLP@Michigan Day](https://ai.engin.umich.edu/news/nlp-michigan-day-2026/).
