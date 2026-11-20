@@ -36,6 +36,17 @@ Agents need to be able to perceive, to reason, and to interact with the world an
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">Preprint</div><img src='images/fluid.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FLUID: Flexible, Evidence-Grounded Situated Task Guidance](https://arxiv.org/abs/2611.26491)
+
+Yunqi Zhao, **Run Peng**, Ze Dong, Ryan Lu, Yinpei Dai, Joyce Chai
+
+\[[**Paper**](https://arxiv.org/abs/2611.26491)\]
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div class="image-wrapper"><div class="badge">CoLM 2026 LSEI Workshop Oral</div><img src='images/simlife.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -165,6 +176,7 @@ Zengqing Wu, **Run Peng**, Xu Han, Shuyuan Zheng, Yixin Zhang, Chuan Xiao
   - Journal: Journal of Simulation
 
 - **Social Activity:**
+  - Student Coordinator, NLP@Michigan Day, Apr 2026
   - Poster Student Co-Chair, Michigan AI symposium 2025
   - Explore Grad Studies Volunteer, University of Michigan
 
